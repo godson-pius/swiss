@@ -5,15 +5,6 @@ if (isset($_POST['submit'])) {
     $response = user_register($_POST);
     if ($response === true) {
         // echo "<script>alert('entered')</script>";
-
-        $to = $_POST['email'];
-        $subject = "Welcome to SAF Bank";
-        $txt = "Hello! \nWelcome to SAF Bank. The bank that servers all customers equally on a daily basis.\nWe are glad you're here";
-        $headers = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $headers .= "From: swissapexfinancial.com" . "\r\n".'Reply-To: ' . 'info@swissapexfinancial.com' . "\r\n" . 'X-Mailer: PHP/' . phpversion();
-
-        mail($to, $subject, $txt, $headers);
         redirect_to("signin.php");
     } else {
         // echo "<script>alert('error')</script>";

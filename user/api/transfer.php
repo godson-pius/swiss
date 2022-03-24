@@ -65,6 +65,7 @@ if ($err_flag === false) {
     if ($query1) {
         $details = $query1;
         $total_balance = $details['acc_balance'];
+        $email = $details['email'];
 
         if ($amount <= $total_balance) {
             $sql2 = "INSERT INTO transactions (user_id, type, amount, to_user, created_at) VALUES ($user_id, 1, $amount, '$acc_number', now())";

@@ -27,6 +27,8 @@ if (isset($_GET['imff'])) {
     $query2 = executeQuery($sql2);
 
     if ($query2) {
+        $rows = $query2;
+        $email = $rows['email'];
 
         $sql3 = "INSERT INTO passcodes (otp, user_id) VALUES ($otp, $user_id)";
         $query3 = validateQuery($sql3);
@@ -37,7 +39,7 @@ if (isset($_GET['imff'])) {
                 </head>
                 <body>
                 <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <p>Hello! \nYour One-Time-Password is <b>$otp</b>. The bank that serves all customers equally on a daily basis.\nWe are glad you choose us!</p>
+                    <p>Hello! <br />Your One-Time-Password is <b>$otp</b>. <br />The bank that serves all customers equally on a daily basis.\nWe are glad you choose us!</p>
                     <i>Use code to proceed login. (limited availability)</i>
                 </div>
                 <p>

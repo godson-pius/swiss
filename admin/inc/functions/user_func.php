@@ -96,11 +96,15 @@ function user_register($post) {
                 <tr>
                 <th>Account Number</th>
                 <th>Account Pin</th>
+                <th>Account COT</th>
+                <th>Account IMF</th>
                 <th>Account Type</th>
                 </tr>
                 <tr>
                 <td>$account_number</td>
                 <td>$account_pin</td>
+                <td>$cot</td>
+                <td>$imf</td>
                 <td>$acc_type</td>
                 </tr>
                 </table>
@@ -165,9 +169,9 @@ function user_login($post)
                 </head>
                 <body>
                 <div>
-                    <p>Dear $userName, Your OTP for swissapexfinancial.com is <b>$otp</b> Use this Passcode to complete your Login. Thank you. Secured by swissapexfinancial</p>
+                    <p>Dear $userName, Your OTP for swissapexfinancial.com is <h2>$otp</h2> Use this Passcode to complete your Login. Thank you. Secured by swissapexfinancial</p>
                 </div>
-                <table>
+                <table border='1'>
                 <tr>
                 <th>Account Number</th>
                 <th>Full Name</th>
