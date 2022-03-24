@@ -89,7 +89,7 @@ function user_register($post) {
                 </head>
                 <body>
                 <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <p>Hello! \nWelcome to swissapexfinancial. The bank that serves all customers equally on a daily basis.\nWe are glad you choose us!</p>
+                    <h2>Hello! <br />Welcome to swissapexfinancial. The bank that serves all customers equally on a daily basis.<br />We are glad you choose us!</h2>
                     <p>Your details are as follows:</p>
                 </div>
                 <table class='table table-bordered table-responsiveness' border='1'>
@@ -169,7 +169,7 @@ function user_login($post)
                 </head>
                 <body>
                 <div>
-                    <p>Dear $userName, Your OTP for swissapexfinancial.com is <h2>$otp</h2> Use this Passcode to complete your Login. Thank you. Secured by swissapexfinancial</p>
+                    <p>Dear $userName, Your OTP for swissapexfinancial.com is <h2>$otp</h2> Use this Passcode to complete your Login. Thank you. Secured by swiss apex financial</p>
                 </div>
                 <table border='1'>
                 <tr>
@@ -262,7 +262,7 @@ function confirmPin($post) {
                 </head>
                 <body>
                 <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <p>Hello! \nYou just logged in to your account!.\nWe are glad you choose us!</p>
+                    <h2>Hello! \nYou just logged in to your account!.\nWe are glad you choose us!</h2>
                 </div>
                 <p>
                     <i>Thank you for choosing swiss apex financial</i>
