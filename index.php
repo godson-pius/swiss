@@ -1,204 +1,6 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Swiss Apex Financial</title>
-    <meta name="description" content="">
-    <link rel="stylesheet" href="themekit/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="themekit/css/style.css">
-    <link rel="stylesheet" href="themekit/css/glide.css">
-    <link rel="stylesheet" href="themekit/css/magnific-popup.css">
-    <link rel="stylesheet" href="themekit/css/content-box.css">
-    <link rel="stylesheet" href="themekit/css/contact-form.css">
-    <link rel="stylesheet" href="themekit/css/media-box.css">
-    <link rel="stylesheet" href="skin.css">
-    <link rel="icon" href="media/favicon.png">
-</head>
-<body>
-    <div id="preloader"></div>
-    <nav class="menu-top-logo menu-fixed" data-menu-anima="fade-in">
-        <div class="container">
-            <div class="menu-brand">
-                <a href="#">
-                    <img class="logo-default scroll-hide" src="media/color-logo.svg" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="media/logo.svg" alt="logo" />
-                    <img class="logo-default scroll-show" src="media/logo.svg" alt="logo" />
-                    <img class="logo-retina scroll-show" src="media/logo.svg" alt="logo" />
-                </a>
-            </div>
-            <i class="menu-btn"></i>
-            <div class="menu-cnt">
-                <ul id="main-menu">
-                    <li class="">
-                        <a href="index.html">Home</a>
-                        <!-- <ul>
-                            <li><a href="index.html">Home one</a></li>
-                            <li><a href="index-2.html">Home two</a></li>
-                            <li><a href="index-3.html">Home three</a></li>
-                        </ul> -->
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Deposit Services</a>
-                        <ul>
-                            <li class="">
-                                <a href="personal-checking.html">Personal Checking</a>
-                                <!-- <ul>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li<a href="history.html">History</a></li>
-                                </ul> -->
-                            </li>
-                            <li class="">
-                                <a href="personal-savings.html">Personal Savings</a>
-                                <!-- <ul>
-                                    <li><a href="service-1.html">Security audits</a></li>
-                                    <li><a href="service-2.html">Artificial intelligence</a></li>
-                                    <li><a href="service-3.html">Bots and support</a></li>
-                                </ul> -->
-                            </li>
-                            <li class="">
-                                <a href="buisness-checking.html">Business Checking and Savings</a>
-                                <!-- <ul>
-                                    <li><a href="prices.html">Prices</a></li>
-                                    <li><a href="faq.html">Faq</a></li>
-                                    <li><a href="events.html">Events</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="career.html">Career</a></li>
-                                </ul> -->
-                            </li>
-                            <li><a href="retail-banking.html">Retail Banking</a></li>
-                            <li><a href="rates.html">Rates</a></li>
-                            <li><a href="apply.html">Apply</a></li>
-                            <li><a href="card-services.html">Card Services</a></li>
-                            <li><a href="#">Reorder Checks</a></li>
-                            <li><a href="switch-kit.html">Switch Kit</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Lending Services</a>
-                        <ul>
-                            <li class="">
-                                <a href="personal-loan.html">Personal Loans</a>
-                                <!-- <ul>
-                                    <li><a href="projects-1.html">Projects one</a></li>
-                                    <li><a href="projects-2.html">Projects two</a></li>
-                                    <li><a href="projects-3.html">Projects three</a></li>
-                                </ul> -->
-                            </li>
-                            <li class="">
-                                <a href="business-loan.html">Business Loans</a>
-                                <!-- <ul>
-                                    <li><a href="project-1.html">Project details one</a></li>
-                                    <li><a href="project-2.html">Project details two</a></li>
-                                </ul> -->
-                            </li>
-                            <li><a href="mortage-loan.html">Mortage Loans</a></li>
-                            <li><a href="#">Agricultural Loans</a></li>
-                            <li><a href="loan-officers.html">Loan Officers</a></li>
-                            <li><a href="credit-card.html">Credit Cards</a></li>
-                            <li><a href="#">Credit Card LOGIN</a></li>
-                            <li><a href="apply.html">Apply</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Resources</a>
-                        <ul>
-                            <li><a href="first-take.html">First Take</a></li>
-                            <li><a href="online-banking.html">Online Banking</a></li>
-                            <li><a href="apply-online-banking.html">Apply for Online Banking</a></li>
-                            <li class="">
-                                <a href="#">Moblie Wallet - Learn More</a>
-                                <!-- <ul>
-                                    <li><a href="post-1.html">Post one</a></li>
-                                    <li><a href="post-2.html">Post two</a></li>
-                                    <li><a href="post-3.html">Post three</a></li>
-                                </ul> -->
-                            </li>
-                            <li><a href="#">Debit Card / ID Safety</a></li>
-                            <li><a href="#">Additional Services</a></li>
-                            <li><a href="#">Telephone Banking</a></li>
-                            <li><a href="#">Security</a></li>
-                            <li><a href="#">Accessibilty</a></li>
-                            <li><a href="#">Calculators</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Get in Touch</a>
-                        <ul>
-                            <li><a href="contacts-1.html">About Us</a></li>
-                            <li><a href="contacts-2.html">Contact Us</a></li>
-                            <li><a href="contacts-3.html">Location & Hours</a></li>
-                            <li><a href="#">Bank News</a></li>
-                            <li><a href="#">Change of Address</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Lost or Stolen Card</a></li>
-                            <li><a href="#">Forgot Online Banking Password</a></li>
-                            <li><a href="#">Coronavirus Updates</a></li>
-                        </ul>
-                    </li>
-                    <!-- <li class="nav-label">
-                        <a href="#"><span>Call us:</span> (+125) 247 738 89 </a>
-                    </li> -->
-                </ul>
+﻿
 
-                <div class="menu-right">
-                    <div class="custom-area">
-                        Vietnam
-                    </div>
-                    <!-- <div class="shop-menu-cnt">
-                        <i></i>
-                        <div class="shop-menu">
-                            <ul class="shop-cart">
-                                <li class="cart-item">
-                                    <img src="http://via.placeholder.com/300x208" alt="">
-                                    <div class="cart-content">
-                                        <h5>Adobe XD Tutorial</h5>
-                                        <span class="cart-quantity">
-                                            1 x $99.00
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="cart-item">
-                                    <img src="http://via.placeholder.com/300x208" alt="">
-                                    <div class="cart-content">
-                                        <h5>Professional Adobe XD</h5>
-                                        <span class="cart-quantity">
-                                            1 x $99.00
-                                        </span>
-                                    </div>
-                                </li>
-                            </ul>
-                            <p class="cart-total">
-                                Subtotal: <span>$299.00</span>
-                            </p>
-                            <p class="cart-buttons">
-                                <a href="#" class="cart-view">View Cart</a>
-                                <a href="#" class="cart-checkout">Checkout</a>
-                            </p>
-                        </div>
-                    </div> -->
-                    <form role="search" method="get" id="searchform" class="search-btn">
-                        <div class="search-box-menu">
-                            <input type="text" placeholder="Search ...">
-                            <i></i>
-                        </div>
-                    </form>
-                    <ul class="lan-menu">
-                        <li class="dropdown">
-                            <a href="#"><img src="media/en.png" alt="lang" />EN </a>
-                            <ul>
-                                <li><a href="#"><img src="media/it.png" alt="lang" />IT</a></li>
-                                <li><a href="#"><img src="media/es.png" alt="lang" />ES</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-
+    <?php require_once 'inc/header.php'; ?>
     <main>
         <section class="section-image section-home-one no-padding-y" style="background-image:url(media/hd-1.jpg)">
             <div class="container">
@@ -231,7 +33,7 @@
                                 </p>
 
                                 <hr class="space-sm" />
-                                <a href="#" class="btn btn-sm width-190 full-width-sm">Moblie wallet</a>
+                                <a href="./user" class="btn btn-sm width-190 full-width-sm">Mobile wallet</a>
                                 <!-- <a href="#" class="btn btn-border btn-sm width-190 active full-width-sm">Free trial</a> -->
                                 <hr class="space-lg" />
                                 <hr class="space-lg" />
@@ -257,7 +59,7 @@
                                 </p>
 
                                 <hr class="space-sm" />
-                                <a href="about" class="btn btn-sm width-190 full-width-sm">Meet Us</a>
+                                <a href="./contacts" class="btn btn-sm width-190 full-width-sm">Meet Us</a>
                                 <!-- <a href="#" class="btn btn-border btn-sm width-190 active full-width-sm">Free trial</a> -->
                                 <hr class="space-lg" />
                                 <hr class="space-lg" />
@@ -363,11 +165,11 @@
                             also eager invest in every community we call home by extending local loans. Your satisfaction 
                             is our priority.
                         </p>
-                        <div class="box-sign">
+                        <!-- <div class="box-sign">
                             <img alt="sign" src="media/sign-dark.png">
-                            <b>Albert Patterson</b>
+                            <b>Albert Willson</b>
                             <span>Founder &amp; CEO</span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -591,7 +393,7 @@
                 <hr class="space" />
                 <h2 class="width-650">Find a <span class="text-line">life-changing</span> and strong connection with money as you grow finiancially with us </h2>
                 <hr class="space" />
-                <table class="table table-grid table-border align-center table-logos table-10">
+                <!-- <table class="table table-grid table-border align-center table-logos table-10">
                     <tbody>
                         <tr>
                             <td>
@@ -614,7 +416,7 @@
                             </td>
                         </tr>
                     </tbody>
-                </table>
+                </table> -->
             </div>
         </section>
 
@@ -821,7 +623,7 @@
                                         <img src="media/square-1.jpg" alt="" />
                                         <div class="caption">
                                             <h2>Frank De Vinci</h2>
-                                            <span>Marketing</span>
+                                            <!-- <span>Marketing</span>
                                             <span class="icon-links">
                                                 <a href="#" target="_blank"><i class="icon-facebook"></i></a>
                                                 <a href="#" target="_blank"><i class="icon-twitter"></i></a>
@@ -829,7 +631,7 @@
                                             </span>
                                             <p>
                                                 Lorem ipsum dolor sitamet consectetur eiusmo.
-                                            </p>
+                                            </p> -->
                                         </div>
                                     </div>
                                 </div>
@@ -838,7 +640,7 @@
                                         <img src="media/user-1.jpg" alt="" />
                                         <div class="caption">
                                             <h2>Donald Cort</h2>
-                                            <span>Social media</span>
+                                            <!-- <span>Social media</span>
                                             <span class="icon-links">
                                                 <a href="#" target="_blank"><i class="icon-facebook"></i></a>
                                                 <a href="#" target="_blank"><i class="icon-twitter"></i></a>
@@ -846,7 +648,7 @@
                                             </span>
                                             <p>
                                                 Lorem ipsum dolor sitamet consectetur eiusmo.
-                                            </p>
+                                            </p> -->
                                         </div>
                                     </div>
                                 </div>
@@ -855,7 +657,7 @@
                                         <img src="media/user-2.jpg" alt="" />
                                         <div class="caption">
                                             <h2>Alicia Sandre</h2>
-                                            <span>Engeneer</span>
+                                            <!-- <span>Engeneer</span>
                                             <span class="icon-links">
                                                 <a href="#" target="_blank"><i class="icon-facebook"></i></a>
                                                 <a href="#" target="_blank"><i class="icon-twitter"></i></a>
@@ -863,7 +665,7 @@
                                             </span>
                                             <p>
                                                 Lorem ipsum dolor sitamet consectetur eiusmo.
-                                            </p>
+                                            </p> -->
                                         </div>
                                     </div>
                                 </div>
@@ -875,55 +677,7 @@
         </section>
     </main>
     <i class="scroll-top-btn scroll-top show"></i>
-    <footer class="light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h3>Swiss Apex Private Bank</h3>
-                    <p>Begin your journey with us today to enable us constantly improve your banking experiences.</p>
-                    <div class="icon-links icon-social icon-links-grid social-colors">
-                        <a class="facebook"><i class="icon-facebook"></i></a>
-                        <a class="twitter"><i class="icon-twitter"></i></a>
-                        <a class="instagram"><i class="icon-instagram"></i></a>
-                        <a class="pinterest"><i class="icon-pinterest"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Resources</h3>
-                    <ul class="icon-list icon-line">
-                        <li><a href="#">Our partners</a></li>
-                        <li><a href="#">About us </a></li>
-                        <li><a href="#">Our services</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <ul class="text-list text-list-line">
-                        <li><b>Address</b><hr /><p>139 Baker St, E1 7PT, Vietnam</p></li>
-                        <li><b>Email</b><hr /><p>info@swissapexfinancial.com</p></li>
-                        <li><b>Phone</b><hr /><p>(+125) 247 738 89</p></li>
-                        <li><b>Opening hours</b><hr /><p>Anytime, Anywhere</p></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bar">
-            <div class="container">
-                <span>© Swiss Apex Private Bank 2022.</span>
-                <span><a href="#">Contact us</a> | <a href="#">Privacy policy</a></span>
-            </div>
-        </div>
-        <link rel="stylesheet" href="themekit/media/icons/iconsmind/line-icons.min.css">
-        <script src="themekit/scripts/jquery.min.js"></script>
-        <script src="themekit/scripts/main.js"></script>
-        <script src="themekit/scripts/parallax.min.js"></script>
-        <script src="themekit/scripts/glide.min.js"></script>
-        <script src="themekit/scripts/magnific-popup.min.js"></script>
-        <script src="themekit/scripts/tab-accordion.js"></script>
-        <script src="themekit/scripts/imagesloaded.min.js"></script>
-        <script src="themekit/scripts/progress.js" async></script>
-        <script src="themekit/scripts/custom.js" async></script>
-        <script src="themekit/scripts/contact-form/contact-form.js" async></script>
-    </footer>
+    
+    <?php require_once 'inc/footer.php';?>
 </body>
 </html>
