@@ -17,7 +17,7 @@ require_once 'inc/header.php';
                                 </a>
                                 <h1 class="font-w700 my-2 text-white"><?= $fullname; ?></h1>
                                 <h2 class="h4 font-w700 text-white-75">
-                                    BCA Mellon Bank
+                                    SAF Bank
                                 </h2>
                                 <a class="btn btn-hero-dark" href="./">
                                     <i class="fa fa-fw fa-arrow-left"></i> Back to Profile

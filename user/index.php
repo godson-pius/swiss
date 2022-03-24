@@ -79,7 +79,7 @@ foreach ($total_income as $income) {
                             </div>
                         </div>
                         <div class="block-content block-content-full block-content-sm text-center bg-body-light">
-                            <span class="font-size-sm text-muted">BCA Mellon Bank</span>
+                            <span class="font-size-sm text-muted">SAF Bank</span>
                         </div>
                     </a>
                     <!-- END Bank Account #1 -->
@@ -124,7 +124,7 @@ foreach ($total_income as $income) {
                         </div>
                     </div>
                     <div class="block-content block-content-full block-content-sm bg-body-light">
-                        <span class="font-size-sm text-muted">From <strong>BCA Mellon Bank</strong> at <strong><?= date("M d, Y", strtotime($trans['created_at'])); ?> - <?= date("h:i A", strtotime($trans['created_at'])) ?></strong></span>
+                        <span class="font-size-sm text-muted">From <strong>SAF Bank</strong> at <strong><?= date("M d, Y", strtotime($trans['created_at'])); ?> - <?= date("h:i A", strtotime($trans['created_at'])) ?></strong></span>
                     </div>
                 </a>
         <?php }

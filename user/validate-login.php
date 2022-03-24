@@ -29,14 +29,14 @@
 
         <title>Verify Login | Swiss Apex Financial</title>
 
-        <meta name="description" content="Sign In | BCA Mellon Bank created by pixelcave and published on Themeforest">
+        <meta name="description" content="Sign In | SAF Bank created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
         <meta name="robots" content="noindex, nofollow">
 
         <!-- Open Graph Meta -->
-        <meta property="og:title" content="Sign In | BCA Mellon Bank">
-        <meta property="og:site_name" content="BCA Mellon">
-        <meta property="og:description" content="Sign In | BCA Mellon Bank">
+        <meta property="og:title" content="Sign In | SAF Bank">
+        <meta property="og:site_name" content="SAF">
+        <meta property="og:description" content="Sign In | SAF Bank">
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:image" content="">
