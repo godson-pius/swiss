@@ -71,9 +71,55 @@ if ($err_flag === false) {
             $query2 = validateQuery($sql2);
 
             if ($query2) {
+                $message = "
+                <html>
+                <head>
+                <title>Welcome</title>
+                </head>
+                <body>
+                <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
+                    <p>Hello! \nYour transfer of $amount was successful.\nWe are glad you choose us!</p>
+                    <p>Details are as follows:</p>
+                </div>
+                <table class='table table-bordered table-responsiveness' border='1'>
+                <tr>
+                <th>Account Number</th>
+                <th>Beneficiary Name</th>
+                <th>Amount</th>
+                </tr>
+                <tr>
+                <td>$acc_number</td>
+                <td>$acc_name</td>
+                <td>$amount</td>
+                </tr>
+                </table>
+                <p>
+                    <i>Thank you for choosing swiss apex financial</i>
+                </p>
+                </body>
+                </html>
+                ";
+                sendEmail($email, "SAF Transactions", $message);
                 echo "success";
             }
         } else {
+            $message = "
+                <html>
+                <head>
+                <title>Welcome</title>
+                </head>
+                <body>
+                <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
+                    <p>Hello! \nYour transfer of $amount failed.\nWe are glad you choose us!</p>
+                </div>
+
+                <p>
+                    <i>Thank you for choosing swiss apex financial</i>
+                </p>
+                </body>
+                </html>
+                ";
+                sendEmail($email, "SAF Transactions", $message);
             $balance_err = "Insufficient Balance";  
             echo $balance_err;
         }

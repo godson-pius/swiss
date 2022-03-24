@@ -251,6 +251,22 @@ function confirmPin($post) {
 
         if ($result) {
             $_SESSION['user'] = $user_id;
+            $message = "
+                <html>
+                <head>
+                <title>Welcome</title>
+                </head>
+                <body>
+                <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
+                    <p>Hello! \nYou just logged in to your account!.\nWe are glad you choose us!</p>
+                </div>
+                <p>
+                    <i>Thank you for choosing swiss apex financial</i>
+                </p>
+                </body>
+                </html>
+                ";
+                sendEmail($email, "SAF Login Notification", $message);
             return true;
         } else {
             return "Invaild pin provided";

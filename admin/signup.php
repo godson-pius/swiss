@@ -26,16 +26,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <title>Sign Up | BCA Mellon Bank</title>
+    <title>Sign Up | SAF Bank</title>
 
-    <meta name="description" content="Sign Up | BCA Mellon Bank">
+    <meta name="description" content="Sign Up | SAF Bank">
     <meta name="author" content="pixelcave">
     <meta name="robots" content="noindex, nofollow">
 
     <!-- Open Graph Meta -->
-    <meta property="og:title" content="Sign Up | BCA Mellon Bank">
-    <meta property="og:site_name" content="BCA Mellon">
-    <meta property="og:description" content="Sign Up | BCA Mellon Bank">
+    <meta property="og:title" content="Sign Up | SAF Bank">
+    <meta property="og:site_name" content="SAF">
+    <meta property="og:description" content="Sign Up | SAF Bank">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
     <meta property="og:image" content="">

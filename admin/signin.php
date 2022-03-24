@@ -26,18 +26,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-        <title>Sign In | BCA Mellon Bank</title>
+        <title>Sign In | SAF Bank</title>
 
-        <meta name="description" content="Sign In | BCA Mellon Bank">
-        <meta name="author" content="BCA Mellon Bank">
+        <meta name="description" content="Sign In | SAF Bank">
+        <meta name="author" content="SAF Bank">
         <meta name="robots" content="noindex, nofollow">
 
         <!-- Open Graph Meta -->
-        <meta property="og:title" content="Sign In | BCA Mellon Bank">
-        <meta property="og:site_name" content="BCA Mellon">
-        <meta property="og:description" content="Sign In | BCA Mellon Bank">
+        <meta property="og:title" content="Sign In | SAF Bank">
+        <meta property="og:site_name" content="SAF">
+        <meta property="og:description" content="Sign In | SAF Bank">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://wwww.BCA Mellon.com">
+        <meta property="og:url" content="https://wwww.swissapexfinancial.com">
         <meta property="og:image" content="">
 
         <!-- Icons -->
@@ -120,7 +120,7 @@
                                 <!-- Header -->
                                 <div class="mb-3 text-center">
                                     <a class="link-fx font-w700 font-size-h1" href="index.html">
-                                        <span class="text-dark">BCA</span><span class="text-primary">Mellon</span>
+                                        <span class="text-dark">SAF</span><span class="text-primary">Bank</span>
                                     </a>
                                     <p class="text-uppercase font-w700 font-size-sm text-muted">Admin Sign In</p>
                                 </div>
@@ -165,7 +165,7 @@
                         <div class="hero-static col-md-6 d-none d-md-flex align-items-md-center justify-content-md-center text-md-center">
                             <div class="p-3">
                                 <p class="display-4 font-w700 text-white mb-3">
-                                    Welcome to BCA Mellon Bank 
+                                    Welcome to SAF Bank 
                                 </p>
                                 <p class="text-white">Building a better life with banking</p>
                                 <p class="font-size-lg font-w600 text-white-75 mb-0 mt-10">

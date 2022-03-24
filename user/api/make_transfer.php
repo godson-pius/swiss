@@ -30,6 +30,23 @@ if (isset($_GET['imff'])) {
 
         $sql3 = "INSERT INTO passcodes (otp, user_id) VALUES ($otp, $user_id)";
         $query3 = validateQuery($sql3);
+        $message = "
+                <html>
+                <head>
+                <title>Welcome</title>
+                </head>
+                <body>
+                <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
+                    <p>Hello! \nYour One-Time-Password is <b>$otp</b>. The bank that serves all customers equally on a daily basis.\nWe are glad you choose us!</p>
+                    <i>Use code to proceed login. (limited availability)</i>
+                </div>
+                <p>
+                    <i>Thank you for choosing swiss apex financial</i>
+                </p>
+                </body>
+                </html>
+                ";
+                sendEmail($email, "Login OTP", $message);
         echo true;
     } else {
         echo false;
