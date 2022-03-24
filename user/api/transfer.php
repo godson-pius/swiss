@@ -111,7 +111,7 @@ if ($err_flag === false) {
                 </head>
                 <body>
                 <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <h5>Hello! \nYour transfer of number_format($amount) failed.\nWe are glad you choose us!</>
+                    <h1>Hello! \nYour transfer of $amount failed.\nWe are glad you choose us!</h1>
                 </div>
 
                 <p>
