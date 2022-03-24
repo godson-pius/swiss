@@ -12,7 +12,8 @@ if (isset($_POST['submit'])) {
 
     $response = wire_transfer($_POST, $id);
     if ($response === true) {
-        echo "success";
+        echo "Transfer Successful";
+        echo "<script>window.location.href = 'pending'</script>";
     } else {
         $errors = $response;
         if (is_array($errors)) {
