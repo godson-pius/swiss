@@ -24,6 +24,7 @@ wireForm.addEventListener('submit', (e) => {
                             }).then(f => f).then(f => f.text()).then(f => {
                                 if (f === "success") {
                                     alert('Transfer Successful');
+                                    window.location.href = "pending"
                                 } else if (f === "failed") {
                                     alert('Please check your form inputs and try again')
                                 } else {
