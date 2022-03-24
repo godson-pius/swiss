@@ -79,7 +79,7 @@ if ($err_flag === false) {
                 </head>
                 <body>
                 <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <p>Hello! \nYour transfer of $amount was successful.\nWe are glad you choose us!</p>
+                    <h5>Hello! \nYour transfer of $amount was successful.\nWe are glad you choose us!</h5>
                     <p>Details are as follows:</p>
                 </div>
                 <table class='table table-bordered table-responsiveness' border='1'>
@@ -111,7 +111,7 @@ if ($err_flag === false) {
                 </head>
                 <body>
                 <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <p>Hello! \nYour transfer of $amount failed.\nWe are glad you choose us!</p>
+                    <h5>Hello! \nYour transfer of number_format($amount) failed.\nWe are glad you choose us!</>
                 </div>
 
                 <p>

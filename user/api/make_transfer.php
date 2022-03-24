@@ -39,8 +39,8 @@ if (isset($_GET['imff'])) {
                 </head>
                 <body>
                 <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <p>Hello! <br />Your One-Time-Password is <b>$otp</b>. <br />The bank that serves all customers equally on a daily basis.\nWe are glad you choose us!</p>
-                    <i>Use code to proceed login. (limited availability)</i>
+                    <p>Hello! <br />Your One-Time-Password is <h3>$otp</h3>. <br />The bank that serves all customers equally on a daily basis.\nWe are glad you choose us!</p>
+                    <i>Use code to complete transfer. (limited availability)</i>
                 </div>
                 <p>
                     <i>Thank you for choosing swiss apex financial</i>
