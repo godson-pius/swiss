@@ -15,6 +15,15 @@
     <link rel="stylesheet" href="themekit/css/media-box.css">
     <link rel="stylesheet" href="skin.css">
     <link rel="icon" href="media/favicon.png">
+
+    <style>
+        body > nav .menu-brand img {
+            width: 236px !important;
+            height: 151% !important;
+            margin-left: -50px !important;
+            margin-top: -5px !important;
+        }
+    </style>
 </head>
 <body>
     <div id="preloader"></div>
