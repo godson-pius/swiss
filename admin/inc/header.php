@@ -114,7 +114,7 @@ foreach ($admin_details as $admin) {
                             D<span class="opacity-75">x</span>
                         </span>
                         <span class="smini-hidden">
-                            BCA<span class="opacity-75">Mellon</span>
+                            SAF<span class="opacity-75">Bank</span>
                         </span>
                     </a>
                     <!-- END Logo -->

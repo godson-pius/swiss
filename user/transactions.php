@@ -21,7 +21,7 @@ require_once 'inc/header.php';
                 <div class="block block-rounded">
                     <div class="block-header block-header-default">
                         <h3 class="block-title">All Transactions</h3>
-
+                        <button class="btn btn-info btn-sm shadow" id="printBtn">Print Statement</button>
                     </div>
 
                     <div class="block-content">
@@ -32,7 +32,7 @@ require_once 'inc/header.php';
                                     <tr>
                                         <th class="text-center" style="width: 100px;">ID</th>
                                         <th class="d-none d-sm-table-cell text-center">Date Sent</th>
-                                        <th>Sent to</th>
+                                        <th>Account Number</th>
                                         <th class="d-none d-sm-table-cell">Amount</th>
                                     </tr>
                                 </thead>
@@ -51,10 +51,18 @@ require_once 'inc/header.php';
                                             <td class="d-none d-sm-table-cell text-center font-size-sm"><?= $created_at; ?></td>
                                             
                                             <td>
-                                                <span class="badge badge-success"><?= $to_user; ?></span>
+                                                <?php if ($type == 0) { ?>
+                                                    <span class="badge badge-success p-2"><?= $to_user; ?></span>
+                                                <?php } else { ?>
+                                                    <span class="badge badge-danger p-2"><?= $to_user; ?></span>
+                                                <?php } ?>
                                             </td>
                                             <td class=" d-none d-sm-table-cell font-size-sm">
-                                                <strong>$<?= number_format($amount); ?></strong>
+                                            <?php if ($type == 0) { ?>
+                                                <strong class="text-success">$<?= number_format($amount); ?></strong>
+                                                <?php } else { ?>
+                                                    <strong class="text-danger">$<?= number_format($amount); ?></strong>
+                                                <?php } ?>
                                             </td>
                                         </tr>
 

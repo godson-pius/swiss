@@ -9,18 +9,18 @@
                     <h2>Our contacts</h2>
                     <p>Information</p>
                 </div>
-                <ul class="text-list text-list-line">
+                <ul class=" text-list-line">
                     <li><b>Address</b><hr /><p>Vietnam</p></li>
                     <li><b>Email</b><hr /><p>info@swissapexfinancial.com</p></li>
-                    <li><b>Opening hours</b><hr /><p>Anytime, Anywhere</p></li>
+                    <li><b>Opening hours</b><hr /><p>8:30AM - 4PM</p></li>
                 </ul>
                 <hr class="space-sm" />
-                <div class="icon-links icon-social icon-links-grid social-colors">
+                <!-- <div class="icon-links icon-social icon-links-grid social-colors">
                     <a class="facebook"><i class="icon-facebook"></i></a>
                     <a class="twitter"><i class="icon-twitter"></i></a>
                     <a class="instagram"><i class="icon-instagram"></i></a>
                     <a class="pinterest"><i class="icon-pinterest"></i></a>
-                </div>
+                </div> -->
             </div>
         </section>  
         <section class="section-base">
@@ -60,21 +60,18 @@
                             <p>Information</p>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                            Utenim ad minim veniam quis nostrud exercitation ullama.
+                        Begin your journey with us today to enable us constantly improve your banking experiences.
                         </p>
                         <table class="table table-border table-time">
                             <thead>
                                 <tr>
                                     <th>Day</th>
-                                    <th>Morning</th>
-                                    <th>Afternoom</th>
+                                    <th>Working Hours</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr><td>Monday - Friday</td><td>8am - 12am</td><td>5pm - 9pm</td></tr>
-                                <tr><td>Saturday</td><td>Closed</td><td>5pm - 9pm</td></tr>
-                                <tr><td>Sunday</td><td>Closed</td><td>Closed</td></tr>
+                                <tr><td>Monday - Friday</td><td>8:30AM - 4PM</td></tr>
+                                <tr><td>Weekends</td><td>Closed</td></tr>
                             </tbody>
                         </table>
                     </div>

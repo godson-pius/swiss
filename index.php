@@ -2,86 +2,50 @@
 
     <?php require_once 'inc/header.php'; ?>
     <main>
-        <section class="section-image section-home-one no-padding-y" style="background-image:url(media/hd-1.jpg)">
+    <section class="section-video section-home-slider light">
+            <video autoplay loop muted poster="http://via.placeholder.com/1920x1080">
+                <source src="media/video.mp4" type="video/mp4">
+            </video>
             <div class="container">
+                <hr class="space" />
                 <div class="row">
                     <div class="col-lg-7">
-                        <hr class="space-lg" />
-                        <h3 class="text-color-2">
-                            WELCOME TO SAPB BANK <br>
-                            <p>We give everything you need</p>
-                        </h3>
-                        <ul class="slider" data-options="arrows:false,nav:false,autoplay:3000,controls:out">
+                        <ul class="slider" data-options="type:slider,perView:1,arrows:true,nav:true,autoplay:3500" data-anima="fade-right" data-time="2000">
                             <li>
-                                <h1 class="text-uppercase">Growing for you</h1>
-                                <p>
-                                    SAPB now has 3 Tennessee offices in :
-                                    Hartsville, Gallatin, Hendersonville.
-                                </p>
-
-                                <hr class="space-sm" />
-                                <a href="user" class="btn btn-sm width-190 full-width-sm">Get Started</a>
-                                <!-- <a href="#" class="btn btn-border btn-sm width-190 active full-width-sm">Free trial</a> -->
-                                <hr class="space-lg" />
-                                <hr class="space-lg" />
+                                <h1>WELCOME TO SWISS APEX FINANCIAL</h1>
+                                <a class="img-box" href="#">
+                                    <img src="./media/image-3.jpg" alt="">
+                                </a>
                             </li>
                             <li>
-                                <h1 class="text-uppercase">Touchless Check  out</h1>
-                                <p>
-                                    Learn how to set up your phone to work with your 
-                                    Debit Mastercard.
-                                </p>
-
-                                <hr class="space-sm" />
-                                <a href="./user" class="btn btn-sm width-190 full-width-sm">Mobile wallet</a>
-                                <!-- <a href="#" class="btn btn-border btn-sm width-190 active full-width-sm">Free trial</a> -->
-                                <hr class="space-lg" />
-                                <hr class="space-lg" />
-
+                                <h1>SWISS APEX FINANCIAL</h1>
+                                <a class="img-box" href="#">
+                                    <img src="./media/image-8.jpg" alt="">
+                                </a>
                             </li>
                             <li>
-                                <h1 class="text-uppercase">You First. Always.</h1>
-                                <p>
-                                    Teach children to save. See our special offer
-                                </p>
-
-                                <hr class="space-sm" />
-                                <a href="user" class="btn btn-sm width-190 full-width-sm">Young savers account</a>
-                                <!-- <a href="#" class="btn btn-border btn-sm width-190 active full-width-sm">Free trial</a> -->
-                                <hr class="space-lg" />
-                                <hr class="space-lg" />
-
-                            </li>
-                            <li>
-                                <h1 class="text-uppercase">Get to know us on a <br> First Name Basis </h1>
-                                <p>
-                                    Feel free to meet our wonderful Leaders.
-                                </p>
-
-                                <hr class="space-sm" />
-                                <a href="./contacts" class="btn btn-sm width-190 full-width-sm">Meet Us</a>
-                                <!-- <a href="#" class="btn btn-border btn-sm width-190 active full-width-sm">Free trial</a> -->
-                                <hr class="space-lg" />
-                                <hr class="space-lg" />
-
-
+                                <h1>SWISS APEX FINANCIAL</h1>
+                                <a class="img-box" href="#">
+                                    <img src="./media/image-6.jpg" alt="">
+                                </a>
                             </li>
                         </ul>
-                        <!-- <p>
-                            Try now our free trial membership.  Duis aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu fugiat nulla pariature irure dolore.
-                        </p> -->
-                        <!-- <hr class="space-sm" />
-                        <a href="#" class="btn btn-sm width-190 full-width-sm">Request a quote</a>
-                        <a href="#" class="btn btn-border btn-sm width-190 active full-width-sm">Free trial</a>
-                        <hr class="space-lg" />
-                        <hr class="space-lg" /> -->
                     </div>
-                    <div class="col-lg-5 hidden-md">
-                        <hr class="space-sm" />
-                        <img data-anima="fade-bottom" data-time="1000" class="slide-image" src="media/man-3.png" alt="" />
+                    <div class="col-lg-5">
+                        <div class="row">
+                            
+                            <div class="col-lg-8" data-anima="fade-right" data-time="4000">
+                                <h2><span>Swiss Apex</span> Financial  </h2>
+                                <p>
+                                Get the financial tools and insights to start, build, and grow your business.
+                                </p>
+                                <a href="user/" class="btn btn-sm">GET STARTED</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <hr class="space" />
+                <hr class="space" />
             </div>
         </section>
 
@@ -106,7 +70,7 @@
                                 <div class="caption">
                                     <h2>Contact us soon!</h2>
                                     <p>
-                                        You are always welcome to a local SAPB branch.
+                                        You are always welcome to any of our branch.
                                     </p>
                                 </div>
                             </div>
@@ -140,8 +104,8 @@
                         <ul class="slider" data-options="arrows:true,nav:false">
                             <li>
                                 <a class="img-box img-box-caption  lightbox" href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ" data-lightbox-anima="fade-top">
-                                    <img src="media/image-10.jpg" alt="">
-                                    <span>Swiss Apex finiancial</span>
+                                    <img src="media/image-4.jpg" alt="">
+                                    <span>Swiss Apex financial</span>
                                 </a>
                             </li>
                             <li>
@@ -158,7 +122,7 @@
                             <p>About us</p>
                         </div>
                         <p>
-                            Swiss Apex Private Bank an affiliate of Zurich Cantonal Bank 
+                            Swiss Apex financial Bank an affiliate of Zurich Cantonal Bank 
                             Putting "You First" with personal service is our primary goal. 
                             We offer: great Checking account options including the latest in online banking 
                             services, competitive rates on CDs, IRAs, Savings accounts and more! Our bank is 
@@ -438,7 +402,7 @@
                                     <div class="thumb-bar">
                                         <img src="media/user-3.jpg" alt="" />
                                         <p>
-                                            <span>Okafor Charles</span>
+                                            <span>Sandre Woods</span>
                                             <span>Client</span>
                                         </p>
                                     </div>

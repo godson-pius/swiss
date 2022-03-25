@@ -9,10 +9,10 @@ $user_details = where("users", "id", $user_id);
 
 foreach ($user_details as $user) {
     extract($user);
+}
 
-    if ($access == 0) {
-        redirect_to("signin.php?msg=Your account have been blocked!");
-    }
+if ($title == "transfer" && $access == 0) {
+    redirect_to("./");
 }
 
 ?>
@@ -55,6 +55,45 @@ foreach ($user_details as $user) {
     <!-- <link rel="stylesheet" id="css-theme" href="../admin/assets/css/themes/xwork.min.css"> -->
     <link rel="stylesheet" id="css-theme" href="../admin/assets/css/themes/xwork.min.css">
     <!-- END Stylesheets -->
+
+    <style>
+        .content-side {
+            background: #4ccaa6;
+        }
+
+        .nav-main-link-name {
+            color: #000;
+        }
+
+        .nav-main-link:hover {
+            background: #28755f;
+        }
+        .nav-main-link-icon {
+            color: #000 !important;
+        }
+
+        .nav-main-submenu .nav-main-link.active, .nav-main-submenu .nav-main-link:hover {
+            color: #fff !important;
+            background-color: #4ccaa6;
+            padding-left: 10px;
+        }
+
+        /* .nav-main-submenu .nav-main-link {
+            background: #31608c;
+        } */
+        .side-menu {
+            background: #fff;
+        }
+
+        .nav-main-heading {
+            color: #fff;
+        }
+
+        .nav-main-link.active, .nav-main-link:hover {
+            color: #000;
+            background-color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -163,7 +202,12 @@ foreach ($user_details as $user) {
                 <!-- Side Actions -->
                 <div class="content-side content-side-full text-center bg-body-light">
                     <div class="smini-hide">
-                        <img class="img-avatar" src="../admin/assets/media/avatars/avatar10.jpg" alt="">
+                        <?php if ($profile_pic == null) { ?>
+                            <img class="img-avatar" src="../admin/assets/media/avatars/avatar10.jpg" alt="">
+                        <?php } else { ?>
+                            <!-- <img class="" src="../media/users/<?= $profile_pic; ?>" alt=""> -->
+                            <div class="img-avatar" style="background-image: url('../media/users/<?= $profile_pic; ?>'); background-size: cover; background-position: center;"></div>
+                        <?php } ?>
                         <div class="mt-3 font-w600"><?= $fullname; ?></div>
                         <a class="link-fx text-muted" href="javascript:void(0)"><?= $acc_number; ?></a>
                     </div>
@@ -174,7 +218,7 @@ foreach ($user_details as $user) {
                 <div class="content-side">
                     <ul class="nav-main">
                         <li class="nav-main-item">
-                            <a class="nav-main-link active" href="./">
+                            <a class="nav-main-link <?php if ($title == 'User Dashboard') : echo 'active'; endif; ?>" href="./">
                                 <i class="nav-main-link-icon fa fa-rocket"></i>
                                 <span class="nav-main-link-name">Overview</span>
                             </a>
@@ -186,16 +230,7 @@ foreach ($user_details as $user) {
                                 <span class="nav-main-link-name">Accounts</span>
                             </a>
                             <ul class="nav-main-submenu">
-                                <li class="nav-main-item">
-                                    <a class="nav-main-link" href="">
-                                        <span class="nav-main-link-name text-success">Active</span>
-                                    </a>
-                                </li>
-                                <li class="nav-main-item">
-                                    <a class="nav-main-link" href="">
-                                        <span class="nav-main-link-name">Manage</span>
-                                    </a>
-                                </li>
+                                
                                 <li class="nav-main-item">
                                     <a class="nav-main-link" href="signup.php">
                                         <i class="nav-main-link-icon fa fa-plus-circle"></i>
@@ -205,7 +240,7 @@ foreach ($user_details as $user) {
                             </ul>
                         </li>
                         <li class="nav-main-item">
-                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                            <a class="nav-main-link nav-main-link-submenu <?php if ($title == 'transactions') : echo 'active'; endif; ?>" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
                                 <i class="nav-main-link-icon fa fa-money-check"></i>
                                 <span class="nav-main-link-name">Transactions</span>
                             </a>
@@ -226,9 +261,9 @@ foreach ($user_details as $user) {
                         </li>
 
                         <li class="nav-main-item">
-                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                            <a class="nav-main-link nav-main-link-submenu <?php if ($title == 'transfer') : echo 'active'; endif; ?>" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
                                 <i class="nav-main-link-icon fa fa-money-bill-wave-alt"></i>
-                                <span class="nav-main-link-name">Services</span>
+                                <span class="nav-main-link-name">Transfers</span>
                             </a>
                             <ul class="nav-main-submenu">
                                 <li class="nav-main-item">
@@ -251,24 +286,24 @@ foreach ($user_details as $user) {
                                         <span class="nav-main-link-name">Loans</span>
                                     </a>
                                 </li> -->
-                                <li class="nav-main-item">
+                                <!-- <li class="nav-main-item">
                                     <a class="nav-main-link" href="credit.php">
                                         <span class="nav-main-link-name">Credit</span>
                                     </a>
-                                </li>
+                                </li> -->
 
                             </ul>
                         </li>
                         <li class="nav-main-heading">Personal</li>
                         <li class="nav-main-item">
-                            <a class="nav-main-link" href="edit-profile.php">
+                            <a class="nav-main-link <?php if ($title == 'profile') : echo 'active'; endif; ?>" href="edit-profile.php">
                                 <i class="nav-main-link-icon fa fa-user-circle"></i>
                                 <span class="nav-main-link-name">Profile</span>
                             </a>
                         </li>
 
                         <li class="nav-main-item">
-                            <a class="nav-main-link" href="">
+                            <a class="nav-main-link" href="edit-profile">
                                 <i class="nav-main-link-icon fa fa-cog"></i>
                                 <span class="nav-main-link-name">Settings</span>
                             </a>

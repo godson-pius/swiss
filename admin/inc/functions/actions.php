@@ -1,6 +1,25 @@
 <?php
 require_once "config.php";
 
+function get_client_ip() {
+    $ipaddress = '';
+    if (getenv('HTTP_CLIENT_IP'))
+        $ipaddress = getenv('HTTP_CLIENT_IP');
+    else if(getenv('HTTP_X_FORWARDED_FOR'))
+        $ipaddress = getenv('HTTP_X_FORWARDED_FOR');
+    else if(getenv('HTTP_X_FORWARDED'))
+        $ipaddress = getenv('HTTP_X_FORWARDED');
+    else if(getenv('HTTP_FORWARDED_FOR'))
+        $ipaddress = getenv('HTTP_FORWARDED_FOR');
+    else if(getenv('HTTP_FORWARDED'))
+       $ipaddress = getenv('HTTP_FORWARDED');
+    else if(getenv('REMOTE_ADDR'))
+        $ipaddress = getenv('REMOTE_ADDR');
+    else
+        $ipaddress = 'UNKNOWN';
+    return $ipaddress;
+}
+
 function adminLogin($post)
 {
     extract($post);
@@ -124,7 +143,7 @@ function credit_user_account($post) {
         if (mysqli_num_rows($qq) > 0) {
             $details = mysqli_fetch_assoc($qq);
             $amount_in_db = $details['acc_balance'];
-            $userId = $details['user_id'];
+            $userId = $details['id'];
 
             $update_balance = $amount + $amount_in_db;
 
@@ -132,7 +151,7 @@ function credit_user_account($post) {
             $result = validateQuery($sql);
 
             if ($result) {
-                $insertTrans = "INSERT INTO 'transactions' (user_id, type, amount, to_user, approved, created_at) VALUES ($userId, 1, $amount, '$acc_number', 1, now())";
+                $insertTrans = "INSERT INTO transactions (user_id, type, amount, to_user, approved, created_at) VALUES ($userId, 0, $amount, '$acc_number', 1, now())";
                 $insertQuery = validateQuery($insertTrans);
 
                 if ($insertQuery) {
@@ -144,6 +163,7 @@ function credit_user_account($post) {
                 // return true;
             } else {
                 $err = "Error! try again";
+                return $err;
             }
         }
     } else {

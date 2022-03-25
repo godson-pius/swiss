@@ -185,22 +185,17 @@ function user_login($post)
                 </html>
                 ";
             if (decrypt($encryptedpassword, $password)) {
-                if ($result['access'] == 1) {
-                    $_SESSION['tmpData'] = $user_id;
-                    if (sendEmail($userEmail, "Login Verification", $message)) {
 
-                        $otpSql = "INSERT INTO passcodes (otp, user_id) VALUES ($otp, $user_id)";
-                        $insertOtp = validateQuery($otpSql);
+                $_SESSION['tmpData'] = $user_id;
+                if (sendEmail($userEmail, "Login Verification", $message)) {
 
-                        if ($insertOtp) {
-                            return true;
-                        }
-                    }   
-                } else {
-                    $acc_blocked_err = "Your account have been blocked!";
-                    return $acc_blocked_err;
-                }
-                
+                    $otpSql = "INSERT INTO passcodes (otp, user_id) VALUES ($otp, $user_id)";
+                    $insertOtp = validateQuery($otpSql);
+
+                    if ($insertOtp) {
+                        return true;
+                    }
+                }   
             }
         }
         $errors[] = "Invalid Login Details!";
@@ -544,10 +539,6 @@ function wire_transfer($post, $user_id) {
     }
 }
 
-function Test() {
-    
-}
-
 
 function credit_account($post, $user_id) {
     extract($post);
@@ -599,5 +590,31 @@ function Transactions($user_id, $status) {
         return $result;
     } else {
         return false;
+    }
+}
+
+function updateProfileImage($post, $user_id) {
+    extract($post);
+    $errors = [];
+
+    if (!empty($_FILES['img'])) {
+        $profileImage = sanitize($_FILES['img']['name']);
+        $profileImageTmp = $_FILES['img']['tmp_name'];
+        move_uploaded_file($profileImageTmp, "../media/users/$profileImage");
+    } else {
+        $errors[] = "Profile Image is required";
+    }
+
+    if (!$errors) {
+        $sql = "UPDATE users SET profile_pic = '$profileImage' WHERE id = $user_id";
+        $query = validateQuery($sql);
+
+        if ($query) {
+            return true;
+        } else {
+            return "Failed to add image";
+        }
+    } else {
+        return $errors;
     }
 }

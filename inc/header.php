@@ -149,7 +149,7 @@
 
                 <div class="menu-right">
                     <div class="custom-area">
-                        Vietnam
+                        <a href="user" class="btn btn-sm full-width-sm">LOGIN</a>
                     </div>
                     <!-- <div class="shop-menu-cnt">
                         <i></i>
@@ -183,12 +183,6 @@
                             </p>
                         </div>
                     </div> -->
-                    <form role="search" method="get" id="searchform" class="search-btn">
-                        <div class="search-box-menu">
-                            <input type="text" placeholder="Search ...">
-                            <i></i>
-                        </div>
-                    </form>
                     <ul class="lan-menu">
                         <a href="#"> 
                             <div id="google_translate_element"></div>

@@ -2,14 +2,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h3>Swiss Apex Private Bank</h3>
+                    <h3>Swiss Apex Financial Bank</h3>
                     <p>Begin your journey with us today to enable us constantly improve your banking experiences.</p>
-                    <div class="icon-links icon-social icon-links-grid social-colors">
+                    <!-- <div class="icon-links icon-social icon-links-grid social-colors">
                         <a class="facebook"><i class="icon-facebook"></i></a>
                         <a class="twitter"><i class="icon-twitter"></i></a>
                         <a class="instagram"><i class="icon-instagram"></i></a>
                         <a class="pinterest"><i class="icon-pinterest"></i></a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-4">
                     <h3>Resources</h3>
@@ -22,15 +22,15 @@
                     <ul class="text-list text-list-line">
                         <li><b>Address</b><hr /><p>Vietnam</p></li>
                         <li><b>Email</b><hr /><p>info@swissapexfinancial.com</p></li>
-                        <li><b>Opening hours</b><hr /><p>Anytime, Anywhere</p></li>
+                        <li><b>Opening hours</b><hr /><p>8:30AM - 4PM</p></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-bar">
             <div class="container">
-                <span>© Swiss Apex Private Bank <?= date('Y'); ?>.</span>
-                <span><a href="#">Contact us</a> | <a href="#">Privacy policy</a></span>
+                <span>© Swiss Apex Financial Bank <?= date('Y'); ?>.</span>
+                <span><a href="contacts">Contact us</a> | <a href="#">Privacy policy</a></span>
             </div>
         </div>
         <link rel="stylesheet" href="themekit/media/icons/iconsmind/line-icons.min.css">

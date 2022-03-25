@@ -13,7 +13,7 @@
                     <!-- Quick Overview -->
                     <div class="row row-deck">
                         <div class="col-6 col-lg-4">
-                            <a class="block block-rounded block-link-shadow text-center" href="be_pages_ecom_orders.html">
+                            <a class="block block-rounded block-link-shadow text-center" href="users">
                                 <div class="block-content py-5">
                                     <div class="font-size-h3 font-w600 text-primary mb-1"><?= getTotal("users"); ?></div>
                                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">

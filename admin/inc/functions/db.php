@@ -66,7 +66,7 @@ function decrypt($dbpass, $password) {
 }
 
 function fetch($table) {
-    $sql = "SELECT * FROM $table";
+    $sql = "SELECT * FROM $table ORDER BY id DESC";
     $query = returnQuery($sql);
 
     if ($query) {
@@ -332,18 +332,6 @@ function delete($table, $field, $id) {
     } else {
         return false;
     }
-}
-
-function getOtherBooksAsc($table, $where, $value, $order, $limit) {
-
-    $sql = "SELECT * FROM $table WHERE $where <> '$value' ORDER BY $order ASC LIMIT $limit";
-    $result = returnQuery($sql);
-
-    if (mysqli_num_rows($result) > 0) {
-        return $result;
-    }
-    return false;
-
 }
 
 

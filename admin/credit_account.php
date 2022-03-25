@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
     }
     $response = credit_user_account($_POST);
     if ($response === true) {
-        echo "<script>alert('Account have been created!')</script>";
+        echo "<script>alert('Account have been credited!')</script>";
     } else {
         $errors = $response;
         if (is_array($errors)) {

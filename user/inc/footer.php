@@ -37,6 +37,12 @@
             webpack is putting everything together at ../admin/assets/_js/main/app.js
         -->
             <script src="../admin/assets/js/dashmix.app.min.js"></script>
+
+            <script>
+                document.getElementById('printBtn').addEventListener('click', () => {
+                    window.print()
+                })
+            </script>
             </body>
 
             </html>

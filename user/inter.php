@@ -1,6 +1,6 @@
 <?php
 require_once '../admin/inc/functions/config.php';
-$title = "User Dashboard";
+$title = "transfer";
 require_once 'inc/header.php';
 
 
