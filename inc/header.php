@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Swiss Apex Financial</title>
-    <meta name="description" content="">
+    <meta name="description" content="This site belongs to Swiss Apex Financial Bank">
     <link rel="stylesheet" href="themekit/css/bootstrap-grid.css">
     <link rel="stylesheet" href="themekit/css/style.css">
     <link rel="stylesheet" href="themekit/css/glide.css">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="themekit/css/contact-form.css">
     <link rel="stylesheet" href="themekit/css/media-box.css">
     <link rel="stylesheet" href="skin.css">
-    <link rel="icon" href="media/favicon.png">
+    <link rel="icon" href="media/color-logo.svg">
 
     <style>
         body > nav .menu-brand img {
@@ -140,11 +140,11 @@
                             <li><a href="contacts">Contact Us</a></li>
                             <li><a href="contacts">Location & Hours</a></li>
                             <li><a href="#">Bank News</a></li>
-                            <li><a href="#">Change of Address</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Lost or Stolen Card</a></li>
-                            <li><a href="#">Forgot Online Banking Password</a></li>
-                            <li><a href="#">Coronavirus Updates</a></li>
+                            <!-- <li><a href="#">Change of Address</a></li> -->
+                            <li><a href="career">Careers</a></li>
+                            <li><a href="contacts">Lost or Stolen Card</a></li>
+                            <li><a href="contacts">Forgot Online Banking Password</a></li>
+                            <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov">Coronavirus Updates</a></li>
                         </ul>
                     </li>
                     <li class="nav-label">

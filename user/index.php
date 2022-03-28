@@ -18,6 +18,14 @@ foreach ($total_income as $income) {
 <!-- Main Container -->
 <main id="main-container">
 
+<!-- EXCHANGERATES.ORG.UK LIVE CURRENCY RATES TICKER START -->
+    <div class="row">
+        <div class="col-12">
+        <iframe src="//www.exchangerates.org.uk/widget/ER-LRTICKER.php?w=1000&s=1&mc=GBP&mbg=F0F0F0&bs=no&bc=000044&f=Verdana&fs=10px&fc=0D443B&lc=2ED1C2&lhc=FE9A00&vc=FE9A00&vcu=008000&vcd=FF0000&" width="100%" height="30" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<!-- EXCHANGERATES.ORG.UK LIVE CURRENCY RATES TICKER END -->
+        </div>
+    </div>
+
     <!-- Page Content -->
     <div class="content">
         <!-- Quick Overview -->
@@ -97,10 +105,10 @@ foreach ($total_income as $income) {
                     <div class="block-content block-content-full d-flex align-items-center justify-content-between">
                         <div>
                             <p class="font-size-lg font-w600 mb-0">
-                                <span class="text-default"><?= $acc_pin; ?></span>
+                                <span class="text-default"><?= $acc_number; ?></span>
                             </p>
                             <p class="text-muted mb-0">
-                                Account PIN
+                                Account Number
                             </p>
                         </div>
                         <div class="ml-3">
@@ -120,10 +128,10 @@ foreach ($total_income as $income) {
                     <div class="block-content block-content-full d-flex align-items-center justify-content-between">
                         <div>
                             <p class="font-size-lg font-w600 mb-0">
-                                <span class="text-default"><?= $cot; ?></span>
+                                <span class="text-default"><?= $fullname; ?></span>
                             </p>
                             <p class="text-muted mb-0">
-                                Account COT PIN
+                                Account Holder
                             </p>
                         </div>
                         <div class="ml-3">
@@ -143,10 +151,10 @@ foreach ($total_income as $income) {
                     <div class="block-content block-content-full d-flex align-items-center justify-content-between">
                         <div>
                             <p class="font-size-lg font-w600 mb-0">
-                                <span class="text-default"><?= $imf; ?></span>
+                                <span class="text-default"><?= $acc_type; ?></span>
                             </p>
                             <p class="text-muted mb-0">
-                                Account IMF PIN
+                                Account Type
                             </p>
                         </div>
                         <div class="ml-3">

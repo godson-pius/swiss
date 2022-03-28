@@ -27,23 +27,23 @@ if ($title == "transfer" && $access == 0) {
 
     <title><?= $fullname; ?> Dashboard</title>
 
-    <meta name="description" content="User Dashboard created by pixelcave and published on Themeforest">
-    <meta name="author" content="pixelcave">
+    <meta name="description" content="This is user dashboard for Swiss Apex Financial customers">
+    <meta name="author" content="Swiss Apex Financial">
     <meta name="robots" content="noindex, nofollow">
 
     <!-- Open Graph Meta -->
     <meta property="og:title" content="User Dashboard">
-    <meta property="og:site_name" content="Dashmix">
-    <meta property="og:description" content="User Dashboard created by pixelcave and published on Themeforest">
+    <meta property="og:site_name" content="Swiss Apex Financial">
+    <meta property="og:description" content="This is user dashboard for Swiss Apex Financial customers">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
     <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-    <link rel="shortcut icon" href="../admin/assets/media/favicons/favicon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../admin/assets/media/favicons/favicon-192x192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../admin/assets/media/favicons/apple-touch-icon-180x180.png">
+    <link rel="shortcut icon" href="../media/color-logo.svg">
+    <link rel="icon" type="image/png" sizes="192x192" href="../media/color-logo.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="../media/color-logo.svg">
     <!-- END Icons -->
 
     <!-- Stylesheets -->
@@ -410,9 +410,14 @@ if ($title == "transfer" && $access == 0) {
                         </button>
                         <div class="dropdown-menu dropdown-menu-right p-0" aria-labelledby="page-header-user-dropdown">
                             <div class="bg-primary-darker rounded-top font-w600 text-white text-center p-3">
-                                <img class="img-avatar img-avatar48 img-avatar-thumb" src="../admin/assets/media/avatars/avatar10.jpg" alt="">
+                            <?php if ($profile_pic == null) { ?>
+                                <img class="img-avatar" src="../admin/assets/media/avatars/avatar10.jpg" alt="">
+                            <?php } else { ?>
+                                <!-- <img class="" src="../media/users/<?= $profile_pic; ?>" alt=""> -->
+                                <div class="img-avatar" style="background-image: url('../media/users/<?= $profile_pic; ?>'); background-size: cover; background-position: center;"></div>
+                            <?php } ?>
                                 <div class="pt-2">
-                                    <a class="text-white font-w600" href="be_pages_generic_profile.html"><?= $fullname; ?></a>
+                                    <a class="text-white font-w600" href="edit-profile"><?= $fullname; ?></a>
                                 </div>
                             </div>
                             <div class="p-2">

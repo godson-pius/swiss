@@ -30,7 +30,7 @@
         <div class="footer-bar">
             <div class="container">
                 <span>© Swiss Apex Financial Bank <?= date('Y'); ?>.</span>
-                <span><a href="contacts">Contact us</a> | <a href="#">Privacy policy</a></span>
+                <span><a href="contacts">Contact us</a> | <a href="privacy">Privacy policy</a></span>
             </div>
         </div>
         <link rel="stylesheet" href="themekit/media/icons/iconsmind/line-icons.min.css">

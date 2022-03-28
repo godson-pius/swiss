@@ -31,23 +31,23 @@
 
         <title>Sign In | Swiss Apex Financial</title>
 
-        <meta name="description" content="Sign In | SAF Bank created by pixelcave and published on Themeforest">
+        <meta name="description" content="Sign In | Swiss Apex Financial Bank created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
         <meta name="robots" content="noindex, nofollow">
 
         <!-- Open Graph Meta -->
-        <meta property="og:title" content="Sign In | SAF Bank">
-        <meta property="og:site_name" content="SAF">
-        <meta property="og:description" content="Sign In | SAF Bank">
+        <meta property="og:title" content="Sign In | Swiss Apex Financial Bank">
+        <meta property="og:site_name" content="Swiss Apex Financial">
+        <meta property="og:description" content="Sign In | Swiss Apex Financial Bank">
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:image" content="">
 
         <!-- Icons -->
         <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-        <link rel="shortcut icon" href="../admin/assets/media/favicons/favicon.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="../admin/assets/media/favicons/favicon-192x192.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="../admin/assets/media/favicons/apple-touch-icon-180x180.png">
+        <link rel="shortcut icon" href="../media/color-logo.svg">
+        <link rel="icon" type="image/png" sizes="192x192" href="../media/color-logo.svg">
+        <link rel="apple-touch-icon" sizes="180x180" href="../media/color-logo.svg">
         <!-- END Icons -->
 
         <!-- Stylesheets -->
@@ -122,8 +122,10 @@
                             <div class="p-3 w-100">
                                 <!-- Header -->
                                 <div class="mb-3 text-center">
-                                    <a class="link-fx font-w700 font-size-h1" href="index.html">
-                                        <span class="text-dark">SAF</span><span class="text-primary">Bank</span>
+                                    
+                                    <a class="font-w700 font-size-h1" href="../">
+                                        <!-- <span class="text-dark">Swiss Apex Financial </span><span class="text-primary">Bank</span> -->
+                                        <img src="../media/color-logo.svg" width="200" alt=""> <br>
                                     </a>
                                     <p class="text-uppercase font-w700 font-size-sm text-muted">Sign In</p>
                                 </div>
@@ -168,7 +170,7 @@
                         <div class="hero-static col-md-6 d-none d-md-flex align-items-md-center justify-content-md-center text-md-center">
                             <div class="p-3">
                                 <p class="display-4 font-w700 text-white mb-3">
-                                Welcome to SAF Bank 
+                                Welcome to Swiss Apex Financial Bank 
                                 </p>
                                 <p class="text-white">Building a better life with banking</p>
                                 <p class="font-size-lg font-w600 text-white-75 mb-0">

@@ -3,7 +3,9 @@
 
     <main>
         <section class="section-map section-map-right">
-            <div class="google-map" data-marker="media/marker.png" data-coords="21.028511,105.804817" data-zoom="12" data-marker-pos="left"></div>
+            <div class="google-map" data-marker="media/marker.png" data-zoom="12" data-marker-pos="left">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15739751.36848881!2d96.8611285444894!3d15.606989583500553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2sVietnam!5e0!3m2!1sen!2sng!4v1648481248273!5m2!1sen!2sng" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             <div class="container">
                 <div class="title">
                     <h2>Our contacts</h2>

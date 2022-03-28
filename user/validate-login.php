@@ -42,11 +42,11 @@
         <meta property="og:image" content="">
 
         <!-- Icons -->
-        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-        <link rel="shortcut icon" href="../admin/assets/media/favicons/favicon.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="../admin/assets/media/favicons/favicon-192x192.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="../admin/assets/media/favicons/apple-touch-icon-180x180.png">
-        <!-- END Icons -->
+    <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+    <link rel="shortcut icon" href=".../media/color-logo.svg">
+    <link rel="icon" type="image/png" sizes="192x192" href="../media/color-logo.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="../media/color-logo.svg">
+    <!-- END Icons -->
 
         <!-- Stylesheets -->
         <!-- Fonts and Dashmix framework -->
@@ -120,8 +120,9 @@
                             <div class="p-3 w-100">
                                 <!-- Header -->
                                 <div class="mb-3 text-center">
-                                    <a class="link-fx font-w700 font-size-h1" href="index.html">
-                                        <span class="text-dark">SAF</span><span class="text-primary">Swiss Apex Financial</span>
+                                    <a class="link-fx font-w700 font-size-h1" href="../">
+                                        <!-- <span class="text-dark">SAF</span><span class="text-primary">Swiss Apex Financial</span> -->
+                                        <img src="../media/color-logo.svg" width="200" alt=""> <br>
                                     </a>
                                     <p class="text-uppercase font-w700 font-size-sm text-muted">Verify Login</p>
                                 </div>

@@ -53,50 +53,58 @@
             <div class="container">
                 <div class="grid-list" data-columns="4" data-columns-md="2" data-columns-sm="1">
                     <div class="grid-box">
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top-icon boxed">
-                                <i class="im-monitor-phone"></i>
-                                <div class="caption">
-                                    <h2>Bank News</h2>
-                                    <p>
-                                        Serving our communities and customers first.
-                                    </p>
+                        <a href="news" style="text-decoration: none">
+                            <div class="grid-item">
+                                <div class="cnt-box cnt-box-top-icon boxed">
+                                    <i class="im-monitor-phone"></i>
+                                    <div class="caption">
+                                        <h2>Bank News</h2>
+                                        <p>
+                                            Serving our communities and customers first.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top-icon boxed">
-                                <i class="im-bar-chart2"></i>
-                                <div class="caption">
-                                    <h2>Contact us soon!</h2>
-                                    <p>
-                                        You are always welcome to any of our branch.
-                                    </p>
+                        </a>
+                        <a href="./contacts" style="text-decoration: none">
+                            <div class="grid-item">
+                                <div class="cnt-box cnt-box-top-icon boxed">
+                                    <i class="im-bar-chart2"></i>
+                                    <div class="caption">
+                                        <h2>Contact us soon!</h2>
+                                        <p>
+                                            You are always welcome to any of our branch.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top-icon boxed">
-                                <i class=" im-medal"></i>
-                                <div class="caption">
-                                    <h2>Stop.Think.Connect</h2>
-                                    <p>
-                                        A campaign to promte safer online practices.
-                                    </p>
+                        </a>
+                        <a href="./practices" style="text-decoration: none">
+                            <div class="grid-item">
+                                <div class="cnt-box cnt-box-top-icon boxed">
+                                    <i class=" im-medal"></i>
+                                    <div class="caption">
+                                        <h2>Stop.Think.Connect</h2>
+                                        <p>
+                                            A campaign to promte safer online practices.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top-icon boxed">
-                                <i class="im-business-man"></i>
-                                <div class="caption">
-                                    <h2>Great Rates</h2>
-                                    <p>
-                                        On accounts, CDs, IRAs, HSAs and more!.
-                                    </p>
+                        </a>
+                        <a href="./greatrates" style="text-decoration: none">
+                            <div class="grid-item">
+                                <div class="cnt-box cnt-box-top-icon boxed">
+                                    <i class="im-business-man"></i>
+                                    <div class="caption">
+                                        <h2>Great Rates</h2>
+                                        <p>
+                                            On accounts, CDs, IRAs, HSAs and more!.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="row row-fit-lg" data-anima="fade-bottom" data-time="1000">
