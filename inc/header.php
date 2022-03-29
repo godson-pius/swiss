@@ -32,9 +32,9 @@
             <div class="menu-brand">
                 <a href="#">
                     <img class="logo-default scroll-hide" src="media/color-logo.svg" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="media/logo.svg" alt="logo" />
-                    <img class="logo-default scroll-show" src="media/logo.svg" alt="logo" />
-                    <img class="logo-retina scroll-show" src="media/logo.svg" alt="logo" />
+                    <img class="logo-retina scroll-hide" src="media/color-logo.svg" alt="logo" />
+                    <img class="logo-default scroll-show" src="media/color-logo.svg" alt="logo" />
+                    <img class="logo-retina scroll-show" src="media/color-logo.svg" alt="logo" />
                 </a>
             </div>
             <i class="menu-btn"></i>

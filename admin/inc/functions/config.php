@@ -1,15 +1,15 @@
 <?php
 session_start();
 
-// define("HOST", "localhost");
-// define("USER", "macaybzv_swiss");
-// define("PASSWORD", "100%swiss");
-// define("DBNAME", "macaybzv_swiss");
-
 define("HOST", "localhost");
-define("USER", "root");
-define("PASSWORD", "");
-define("DBNAME", "chasee");
+define("USER", "macaybzv_swiss");
+define("PASSWORD", "100%swiss");
+define("DBNAME", "macaybzv_swiss");
+
+// define("HOST", "localhost");
+// define("USER", "root");
+// define("PASSWORD", "");
+// define("DBNAME", "chasee");
 
 $link = mysqli_connect(HOST, USER, PASSWORD, DBNAME);
 
