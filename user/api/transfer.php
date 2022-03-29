@@ -29,11 +29,18 @@ if (!empty($bank_name)) {
     $errors[] = "Enter bank name!";
 }
 
-if (!empty($type)) {
+if (!empty($swift_code)) {
     $swift_code = sanitize($swift_code);
 } else {
     $err_flag = true;
     $errors[] = "Enter swift code!";
+}
+
+if (!empty($routing_number)) {
+    $routing_number = sanitize($routing_number);
+} else {
+    $err_flag = true;
+    $errors[] = "Enter routing number!";
 }
 
 if (!empty($type)) {
@@ -68,7 +75,7 @@ if ($err_flag === false) {
         $email = $details['email'];
 
         if ($amount <= $total_balance) {
-            $sql2 = "INSERT INTO transactions (user_id, type, amount, to_user, created_at) VALUES ($user_id, 1, $amount, '$acc_number', now())";
+            $sql2 = "INSERT INTO transactions (user_id, type, amount, to_user, beneficiary, bank_name, swift_code, routing_number, account_type, description, created_at) VALUES ($user_id, 1, $amount, '$acc_number', '$acc_name', '$bank_name', '$swift_code', '$routing_number', '$type', '$desc', now())";
             $query2 = validateQuery($sql2);
 
             if ($query2) {

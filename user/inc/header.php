@@ -294,6 +294,86 @@ if ($title == "transfer" && $access == 0) {
 
                             </ul>
                         </li>
+
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu <?php if ($title == 'bill') : echo 'active'; endif; ?>" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon fa fa-money-bill"></i>
+                                <span class="nav-main-link-name">Bill Payments</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=auto">
+                                        <span class="nav-main-link-name">Auto Payment</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=electricity">
+                                        <span class="nav-main-link-name">Electricity</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=gas">
+                                        <span class="nav-main-link-name">Gas</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=water">
+                                        <span class="nav-main-link-name">Water</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=trash">
+                                        <span class="nav-main-link-name">Trash</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=sewer">
+                                        <span class="nav-main-link-name">Sewer</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=telephone">
+                                        <span class="nav-main-link-name">Telephone</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=home">
+                                        <span class="nav-main-link-name">Home Insurance</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=health">
+                                        <span class="nav-main-link-name">Health Insurance</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=education">
+                                        <span class="nav-main-link-name">Education</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=child">
+                                        <span class="nav-main-link-name">Child Care</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="bill?bill=rent">
+                                        <span class="nav-main-link-name">Rent/Mortage</span>
+                                    </a>
+                                </li>
+                                <!-- <li class="nav-main-item">
+                                    <a class="nav-main-link" href="">
+                                        <span class="nav-main-link-name">Loans</span>
+                                    </a>
+                                </li> -->
+                                <!-- <li class="nav-main-item">
+                                    <a class="nav-main-link" href="credit.php">
+                                        <span class="nav-main-link-name">Credit</span>
+                                    </a>
+                                </li> -->
+
+                            </ul>
+                        </li>
                         <li class="nav-main-heading">Personal</li>
                         <li class="nav-main-item">
                             <a class="nav-main-link <?php if ($title == 'profile') : echo 'active'; endif; ?>" href="edit-profile.php">

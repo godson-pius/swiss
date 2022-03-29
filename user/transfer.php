@@ -61,12 +61,24 @@ if (isset($_POST['submit'])) {
                                     <i class="fa fa-dollar-sign"></i>
                                 </span>
                             </div>
-                            <input type="text" class="form-control text-center" name="amount" placeholder="Amount">
+                            <input type="text" class="form-control" name="amount" placeholder="Amount">
                             <div class="input-group-append">
                                 <span class="input-group-text">.00</span>
                             </div>
                         </div>
                     </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fa fa-edit"></i>
+                                </span>
+                            </div>
+                            <textarea name="desc" class="form-control" placeholder="Enter transaction description"></textarea>
+                        </div>
+                    </div>
+
                     <hr>
                     <div class="form-group" id="make_transfer" style="display: none;">
                         <div class="input-group">
@@ -85,5 +97,5 @@ if (isset($_POST['submit'])) {
 <!-- END Main Container -->
 
 <!-- Footer -->
-<?php require_once 'inc/footer.php'; ?>
+<?php require_once 'inc/footer.php';     ?>
 <script src="js/get_recipent.js"></script>

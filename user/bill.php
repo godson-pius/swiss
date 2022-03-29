@@ -1,6 +1,6 @@
 <?php
 require_once '../admin/inc/functions/config.php';
-$title = "transfer";
+$title = "bill";
 require_once 'inc/header.php';
 
 
@@ -12,7 +12,8 @@ if (isset($_POST['submit'])) {
 
     $response = wire_transfer($_POST, $id);
     if ($response === true) {
-        echo "success";
+        echo "Transfer Successful";
+        echo "<script>window.location.href = 'pending'</script>";
     } else {
         $errors = $response;
         if (is_array($errors)) {
@@ -25,6 +26,12 @@ if (isset($_POST['submit'])) {
     }
 }
 
+if (isset($_GET['bill'])) {
+    $title = $_GET['bill'];   
+}
+
+
+
 ?>
 <!-- END Header -->
 
@@ -35,7 +42,7 @@ if (isset($_POST['submit'])) {
     <div class="content">
         <!-- Quick Overview -->
         <h2 class="content-heading">
-            <i class="fa fa-angle-right text-muted mr-1"></i> Inter Bank Transfer
+            <i class="fa fa-angle-right text-muted mr-1"></i> <?php echo ucfirst($title); ?> Payment
         </h2>
 
         <div class="row">

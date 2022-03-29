@@ -426,6 +426,12 @@ function make_transfer($post, $user_id) {
         $errors[] = "Enter account number!";
     }
     
+    if (!empty($desc)) {
+        $desc = sanitize($desc);
+    } else {
+        $err_flag = true;
+        $errors[] = "Enter transaction description!";
+    }
 
     if ($err_flag === false) {
         $sql1 = "SELECT * FROM users WHERE id = $user_id";
@@ -436,7 +442,7 @@ function make_transfer($post, $user_id) {
             $total_balance = $details['acc_balance'];
 
             if ($amount <= $total_balance) {
-                $sql2 = "INSERT INTO transactions (user_id, type, amount, to_user, created_at) VALUES ($user_id, 1, $amount, '$acc_number', now())";
+                $sql2 = "INSERT INTO transactions (user_id, type, amount, to_user, description, created_at) VALUES ($user_id, 1, $amount, '$acc_number', '$desc', now())";
                 $query2 = validateQuery($sql2);
 
                 if ($query2) {
