@@ -82,39 +82,55 @@ function user_register($post) {
 
         $result = validateQuery($sql);
         if ($result === true) {
-            $message = "
-                <html>
+
+                $message = "
+                <html lang='en'>
                 <head>
-                <title>Welcome</title>
+                    <meta charset='utf-8'>
+                    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+                    <!-- CSS only -->
+                    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
+                    <title>Title</title>
                 </head>
                 <body>
-                <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <h2>Hello! <br />Welcome to swissapexfinancial. The bank that serves all customers equally on a daily basis.<br />We are glad you choose us!</h2>
-                    <p>Your details are as follows:</p>
-                </div>
-                <table class='table table-bordered table-responsiveness' border='1'>
-                <tr>
-                <th>Account Number</th>
-                <th>Account Pin</th>
-                <th>Account COT</th>
-                <th>Account IMF</th>
-                <th>Account Type</th>
-                </tr>
-                <tr>
-                <td>$account_number</td>
-                <td>$account_pin</td>
-                <td>$cot</td>
-                <td>$imf</td>
-                <td>$acc_type</td>
-                </tr>
-                </table>
-                <p>
-                    <i>Thank you for choosing swiss apex financial</i>
-                </p>
+                    <div class='container mt-5'>
+                        <div class='p-3 bg-info rounded text-center' style='width: 500px;'>
+                            <img src='../../media/color-logo.svg' width='50' class='rounded' alt='dd'> <br>
+                
+                            Hello, <br>
+                            Welcome to swissapexfinancial. The bank that serves all customers equally on a daily basis.<br />We are glad you choose us! <p>Your details are as follows:</p> <hr>
+                            
+                
+                            <table class='table table-responsivess table-striped table-hover'>
+                                <tr>
+                                    <th>Account number</th>
+                                    <td>$account_number</td>
+                                </tr>
+                                <tr>
+                                    <th>Account Pin</th>
+                                    <td>$account_pin</td>
+                                </tr>
+                                <tr>
+                                    <th>Account COT</th>
+                                    <td>$cot</td>
+                                </tr>
+                                <tr>
+                                    <th>Account IMF</th>
+                                    <td>$imf</td>
+                                </tr>
+                                <tr>
+                                    <th>Account Type</th>
+                                    <td>$acc_type</td>
+                                </tr>
+                            </table>
+                            <p class='text-light text-center mt-2'><i>Thank you for choosing Swiss Apex Financial</i></p>
+                        </div>
+                
+                    </div>
                 </body>
                 </html>
                 ";
-                sendEmail($email, "Welcome to SAF", $message);
+                sendEmail($email, "Welcome to Swiss Apex Financial", $message);
             return true;
         } else {
             $errors[] = "Check form inputs";
@@ -162,25 +178,30 @@ function user_login($post)
             $userName = $result['fullname'];
             $user_id = $result['id'];
             $otp = generateNumber(4);
-            $message = "
-                <html>
+                $message = "
+                <html lang='en'>
                 <head>
-                <title>Login Verification</title>
+                    <meta charset='utf-8'>
+                    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+                    <!-- CSS only -->
+                    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
+                    <title>Message</title>
                 </head>
                 <body>
-                <div>
-                    <p>Dear $userName, Your OTP for swissapexfinancial.com is <h2>$otp</h2> Use this Passcode to complete your Login. Thank you. Secured by swiss apex financial</p>
-                </div>
-                <table border='1'>
-                <tr>
-                <th>Account Number</th>
-                <th>Full Name</th>
-                </tr>
-                <tr>
-                <td>$accNum</td>
-                <td>$userName</td>
-                </tr>
-                </table>
+                    <div class='container mt-5'>
+                        <div class='p-3 bg-light shadow rounded text-center' style='width: 500px;'>
+                            <img src='../../media/color-logo.svg' width='50' class='rounded' alt='dd'> <br>
+                
+                            Dear $fullname, <br>
+                            This is your ONE-TIME-PASSWORD to complete <hr>
+                
+                            <h1>$otp</h1>
+                
+                            <p class='text-center mt-2'><i>Use this Passcode to complete your Login.</i></p>
+                            <p class='text-center mt-2'><i>Swiss Apex Financial</i></p>
+                        </div>
+                
+                    </div>
                 </body>
                 </html>
                 ";
@@ -251,21 +272,33 @@ function confirmPin($post) {
         if ($result) {
             $_SESSION['user'] = $user_id;
             $message = "
-                <html>
+                <html lang='en'>
                 <head>
-                <title>Welcome</title>
+                    <meta charset='utf-8'>
+                    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+                    <!-- CSS only -->
+                    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
+                    <title>Message</title>
                 </head>
                 <body>
-                <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <h2>Hello! \nYou just logged in to your account!.\nWe are glad you choose us!</h2>
-                </div>
-                <p>
-                    <i>Thank you for choosing swiss apex financial</i>
-                </p>
+                    <div class='container mt-5'>
+                        <div class='p-3 bg-light shadow rounded text-center' style='width: 500px;'>
+                            <img src='../../media/color-logo.svg' width='50' class='rounded' alt='dd'> <br>
+                
+                            Hello, <br>
+                            You just logged in to your account!
+                            <p><i>Didn't initiate this?</i></p> <hr>
+                
+                            <a class='btn btn-primary' href='swissapexfinancial.com/user/logout'>Logout User</a>
+                
+                            <p class='text-center mt-2'><i>Swiss Apex Financial</i></p>
+                        </div>
+                
+                    </div>
                 </body>
                 </html>
                 ";
-                sendEmail($email, "SAF Login Notification", $message);
+                sendEmail($email, "Swiss Apex Financial Login Notification", $message);
             return true;
         } else {
             return "Invaild pin provided";

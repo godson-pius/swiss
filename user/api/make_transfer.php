@@ -29,25 +29,37 @@ if (isset($_GET['imff'])) {
     if ($query2) {
         $rows = $query2;
         $email = $rows['email'];
+        $fullname = $rows['fullname'];
 
         $sql3 = "INSERT INTO passcodes (otp, user_id) VALUES ($otp, $user_id)";
         $query3 = validateQuery($sql3);
+
         $message = "
-                <html>
-                <head>
-                <title>Welcome</title>
-                </head>
-                <body>
-                <div style='padding: 10px; border: 1px 1px 1px solid; border-radius: 10px;'>
-                    <p>Hello! <br />Your One-Time-Password is <h1>$otp</h1>. <br />The bank that serves all customers equally on a daily basis.\nWe are glad you choose us!</p>
-                    <i>Use code to complete transfer. (limited availability)</i>
+        <html lang='en'>
+        <head>
+            <meta charset='utf-8'>
+            <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+            <!-- CSS only -->
+            <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
+            <title>Message</title>
+        </head>
+        <body>
+            <div class='container mt-5'>
+                <div class='p-3 bg-light shadow rounded text-center' style='width: 500px;'>
+                    <img src='../../media/color-logo.svg' width='50' class='rounded' alt='dd'> <br>
+        
+                    Dear $fullname, <br>
+                    This is your ONE-TIME-PASSWORD <hr>
+        
+                    <h1>$otp</h1>
+        
+                    <p class='text-center mt-2'><i>Swiss Apex Financial</i></p>
                 </div>
-                <p>
-                    <i>Thank you for choosing swiss apex financial</i>
-                </p>
-                </body>
-                </html>
-                ";
+        
+            </div>
+        </body>
+        </html>
+        ";
                 sendEmail($email, "Login OTP", $message);
         echo true;
     } else {
