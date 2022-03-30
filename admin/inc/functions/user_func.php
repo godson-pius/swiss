@@ -178,26 +178,23 @@ function user_login($post)
             $userName = $result['fullname'];
             $user_id = $result['id'];
             $otp = generateNumber(4);
+
                 $message = "
                 <html>
                 <head>
-                    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
-                    <title>Message</title>
+                    <title>Login</title>
                 </head>
                 <body>
-                    <div class='container mt-5'>
-                        <div class='p-3 bg-light shadow rounded text-center' style='width: 500px;'>
-                            <img src='../../media/color-logo.svg' width='50' class='rounded' alt='dd'> <br>
+                    <div style='background: #fbfbfb; padding: 1rem; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;'>
+                        <img src='../../../media/color-logo.svg' width='50' style='border-radius: 0.25rem!important' alt='dd'> <br>
                 
-                            Dear $fullname, <br>
-                            This is your ONE-TIME-PASSWORD to complete <hr>
+                            Dear Carlos, <br>
+                            This is your ONE-TIME-PASSWORD <hr>
                 
                             <h1>$otp</h1>
-                
+
                             <p class='text-center mt-2'><i>Use this Passcode to complete your Login.</i></p>
                             <p class='text-center mt-2'><i>Swiss Apex Financial</i></p>
-                        </div>
-                
                     </div>
                 </body>
                 </html>
