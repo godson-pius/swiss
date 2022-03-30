@@ -186,9 +186,9 @@ function user_login($post)
                 </head>
                 <body>
                     <div style='background: #00aeff8c; padding: 1rem; color: #fff; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;'>
-                        <img src='../../media/color-logo.svg' width='50' style='border-radius: 0.25rem!important' alt='dd'> <br>
+                        <img src='../media/color-logo.svg' width='50' style='border-radius: 0.25rem!important' alt='dd'> <br>
                 
-                            <h3>Dear $userName</h3>, <br>
+                            <h2>Dear $userName</h2>,
                             <h3>This is your ONE-TIME-PASSWORD</h3> <hr>
                 
                             <h1>$otp</h1>
