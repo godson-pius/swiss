@@ -185,19 +185,21 @@ function user_login($post)
                     <title>Login</title>
                 </head>
                 <body>
+                    <center>
                     <div style='background: #f3b30bc7; padding: 1rem; color: #000; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;'>
-                        <img src='https://swissapexfinancial.com/media/color-logo.svg' width='50' style='border-radius: 0.25rem!important' alt='dd'> <br>
-                
-                            <h2>Dear $userName,</h2>
-                            <h3>This is your ONE-TIME-PASSWORD</h3> <hr>
-                
-                            <h1>$otp</h1>
+                    <img src='https://swissapexfinancial.com/media/color-logo.svg' width='50' style='border-radius: 0.25rem!important' alt='Swiss Apex Financial'> <br>
+            
+                        <h2>Dear $userName,</h2>
+                        <h3>This is your ONE-TIME-PASSWORD</h3> <hr>
+            
+                        <h1>$otp</h1>
 
-                            <p class=''>
-                                <i>Use this Passcode to complete your Login.</i> <br>
-                                <i>Swiss Apex Financial</i>
-                            </p>
-                    </div>
+                        <p class=''>
+                            <i>Use this Passcode to complete your Login.</i> <br>
+                            <i>Swiss Apex Financial</i>
+                        </p>
+                </div>
+                    </center>
                 </body>
                 </html>
                 ";
