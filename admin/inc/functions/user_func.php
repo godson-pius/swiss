@@ -84,49 +84,46 @@ function user_register($post) {
         if ($result === true) {
 
                 $message = "
-                <html lang='en'>
+                <html>
                 <head>
-                    <meta charset='utf-8'>
-                    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-                    <!-- CSS only -->
-                    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
                     <title>Title</title>
                 </head>
                 <body>
-                    <div class='container mt-5'>
-                        <div class='p-3 bg-info rounded text-center' style='width: 500px;'>
-                            <img src='../../media/color-logo.svg' width='50' class='rounded' alt='dd'> <br>
+                    
+                        <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
+                        <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
-                            Hello, <br>
-                            Welcome to swissapexfinancial. The bank that serves all customers equally on a daily basis.<br />We are glad you choose us! <p>Your details are as follows:</p> <hr>
+                            <h2 style='color: #fff !important'>Hello,</h2>
+                            <h3 style='color: #fff !important'>Welcome to swissapexfinancial. The bank that serves all customers equally on a daily basis</h3> 
+                            <i>Your details are as follows:</i> <hr>
                             
                 
-                            <table class='table table-responsivess table-striped table-hover'>
+                            <table style='width: 100%; padding-top: 10px;' border='1'>
                                 <tr>
-                                    <th>Account number</th>
+                                    <th style='padding: 7px;'>Account number</th>
                                     <td>$account_number</td>
                                 </tr>
                                 <tr>
-                                    <th>Account Pin</th>
+                                    <th style='padding: 7px;'>Account Pin</th>
                                     <td>$account_pin</td>
                                 </tr>
                                 <tr>
-                                    <th>Account COT</th>
+                                    <th style='padding: 7px;'>Account COT</th>
                                     <td>$cot</td>
                                 </tr>
                                 <tr>
-                                    <th>Account IMF</th>
+                                    <th style='padding: 7px;'>Account IMF</th>
                                     <td>$imf</td>
                                 </tr>
                                 <tr>
-                                    <th>Account Type</th>
+                                    <th style='padding: 7px;'>Account Type</th>
                                     <td>$acc_type</td>
                                 </tr>
                             </table>
-                            <p class='text-light text-center mt-2'><i>Thank you for choosing Swiss Apex Financial</i></p>
+                            <p style='color: #fff !important'><i>Thank you for choosing Swiss Apex Financial</i></p>
                         </div>
                 
-                    </div>
+                 
                 </body>
                 </html>
                 ";
@@ -585,7 +582,7 @@ function make_transfer($post, $user_id) {
                 </html>
                 ";
                 sendEmail($email, "Swiss Apex Financial Alert", $message);
-                sendEmail("godsonazubuike15@gmail.com", "Swiss Apex Financial Alert", $rec_message);
+                sendEmail($receiver_email, "Swiss Apex Financial Alert", $rec_message);
                     return true;
                 }
             } else {
@@ -604,18 +601,18 @@ function make_transfer($post, $user_id) {
                             <i>Transaction Alert</i> <hr>
                 
                             <table style='width: 100%; padding-top: 10px;' border='1'>
-                                <tr>
-                                    <th style='padding: 7px;'>Account number</th>
-                                    <td>Debit</td>
-                                </tr>
-                                <tr>
-                                    <th style='padding: 7px;'>Date/Time</th>
-                                    <td>Debit</td>
-                                </tr>
-                                <tr>
-                                    <th style='padding: 7px;'>Amount</th>
-                                    <td>Debit</td>
-                                </tr>
+                            <tr>
+                            <th style='padding: 7px;'>Account number</th>
+                            <td>$acc_number</td>
+                            </tr>
+                            <tr>
+                                <th style='padding: 7px;'>Date/Time</th>
+                                <td>$date / $time</td>
+                            </tr>
+                            <tr>
+                                <th style='padding: 7px;'>Amount</th>
+                                <td>$amount</td>
+                            </tr>
                             </table>
                             <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
                         </div>

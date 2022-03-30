@@ -183,7 +183,7 @@ if ($err_flag === false) {
                 </html>
                 ";
                 sendEmail($email, "Swiss Apex Financial Alert", $message);
-                sendEmail("godsonazubuike15@gmail.com", "Swiss Apex Financial Alert", $rec_message);
+                sendEmail($receiver_email, "Swiss Apex Financial Alert", $rec_message);
                 echo "success";
             }
         } else {
@@ -204,15 +204,15 @@ if ($err_flag === false) {
                             <table style='width: 100%; padding-top: 10px;' border='1'>
                                 <tr>
                                     <th style='padding: 7px;'>Account number</th>
-                                    <td>Debit</td>
+                                    <td>$acc_number</td>
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Date/Time</th>
-                                    <td>Debit</td>
+                                    <td>$date / $time</td>
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Amount</th>
-                                    <td>Debit</td>
+                                    <td>$amount</td>
                                 </tr>
                             </table>
                             <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
