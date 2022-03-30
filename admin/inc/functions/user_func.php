@@ -498,7 +498,7 @@ function make_transfer($post, $user_id) {
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
                             <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
-                            <h2 style='color: #fff !important'>Dear $userName,</h2>
+                            <h2 style='color: #fff !important'>Dear $username,</h2>
                             <h3 style='color: #fff !important'>Your transaction successful!</h3> 
                             <i>Transaction Alert</i> <hr>
                 
@@ -513,7 +513,7 @@ function make_transfer($post, $user_id) {
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Date/Time</th>
-                                    <td>$date/$time</td>
+                                    <td>$date - $time</td>
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Description</th>
@@ -521,15 +521,15 @@ function make_transfer($post, $user_id) {
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Amount</th>
-                                    <td>$amount</td>
+                                    <td>USD $amount</td>
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Balance</th>
-                                    <td>$total_balance</td>
+                                    <td>USD $total_balance</td>
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Avalaible Balance</th>
-                                    <td>$available_balance</td>
+                                    <td>USD $available_balance</td>
                                 </tr>
                             </table>
                             <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
@@ -559,11 +559,11 @@ function make_transfer($post, $user_id) {
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>From</th>
-                                    <td>$userName</td>
+                                    <td>$username</td>
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Date/Time</th>
-                                    <td>$date/$time</td>
+                                    <td>$date - $time</td>
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Description</th>
@@ -571,7 +571,7 @@ function make_transfer($post, $user_id) {
                                 </tr>
                                 <tr>
                                     <th style='padding: 7px;'>Amount</th>
-                                    <td>$amount</td>
+                                    <td>USD $amount</td>
                                 </tr>
                             </table>
                             <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
@@ -607,11 +607,11 @@ function make_transfer($post, $user_id) {
                             </tr>
                             <tr>
                                 <th style='padding: 7px;'>Date/Time</th>
-                                <td>$date / $time</td>
+                                <td>$date - $time</td>
                             </tr>
                             <tr>
                                 <th style='padding: 7px;'>Amount</th>
-                                <td>$amount</td>
+                                <td>USD $amount</td>
                             </tr>
                             </table>
                             <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
