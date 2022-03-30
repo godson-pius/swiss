@@ -418,6 +418,13 @@ function make_transfer($post, $user_id) {
         $err_flag = true;
         $errors[] = "Enter account number!";
     }
+
+    if (!empty($routing_number)) {
+        $routing_number = sanitize($routing_number);
+    } else {
+        $err_flag = true;
+        $errors[] = "Enter routing number!";
+    }
     
     if (!empty($amount)) {
         $amount = sanitize($amount);
@@ -442,7 +449,7 @@ function make_transfer($post, $user_id) {
             $total_balance = $details['acc_balance'];
 
             if ($amount <= $total_balance) {
-                $sql2 = "INSERT INTO transactions (user_id, type, amount, to_user, description, created_at) VALUES ($user_id, 1, $amount, '$acc_number', '$desc', now())";
+                $sql2 = "INSERT INTO transactions (user_id, type, amount, to_user, description, routing_number, created_at) VALUES ($user_id, 1, $amount, '$acc_number', '$desc', '$routing_number', now())";
                 $query2 = validateQuery($sql2);
 
                 if ($query2) {

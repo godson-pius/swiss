@@ -58,6 +58,17 @@ if (isset($_POST['submit'])) {
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
+                                    <i class="fa fa-terminal"></i>
+                                </span>
+                            </div>
+                            <input type="text" maxLength="9" name="routing_number" class="form-control" placeholder="Enter Routing number">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
                                     <i class="fa fa-dollar-sign"></i>
                                 </span>
                             </div>

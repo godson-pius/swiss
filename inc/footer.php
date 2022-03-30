@@ -29,10 +29,11 @@
         </div>
         <div class="footer-bar">
             <div class="container">
-                <span>© Swiss Apex Financial Bank <?= date('Y'); ?>.</span>
-                <span><a href="contacts">Contact us</a> | <a href="privacy">Privacy policy</a></span>
+                <span>© Swiss Apex Financial Bank <?= date('Y'); ?>.</span> -  <a href="privacy">Privacy policy</a>
+                <span>Federal Deposit Insurance Corporation | <img src="media/fdic.png" width="30" alt=""> </span>
             </div>
         </div>
+
         <link rel="stylesheet" href="themekit/media/icons/iconsmind/line-icons.min.css">
         <script src="themekit/scripts/jquery.min.js"></script>
         <script src="themekit/scripts/main.js"></script>
