@@ -187,7 +187,7 @@ function user_login($post)
                 <body>
                     <center>
                     <div style='background: #f3b30bc7; padding: 1rem; color: #000; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;'>
-                    <img src='https://www.swissapexfinancial.com/media/logo.svg' width='50' style='border-radius: 0.25rem!important' alt='Swiss Apex Financial'> <br>
+                    <img src='https://media.istockphoto.com/photos/notification-bell-icon-isolated-on-white-picture-id1303181346?b=1&k=20&m=1303181346&s=170667a&w=0&h=ostWoZ4JzT6uivzr5ac0zQzJ-0oN75gDInex3Y-j-oA=' width='50' style='border-radius: 0.25rem!important' alt='Swiss Apex Financial'> <br>
             
                         <h2>Dear $userName,</h2>
                         <h3>This is your ONE-TIME-PASSWORD</h3> <hr>
