@@ -270,29 +270,25 @@ function confirmPin($post) {
         if ($result) {
             $_SESSION['user'] = $user_id;
             $message = "
-                <html lang='en'>
+                <html>
                 <head>
-                    <meta charset='utf-8'>
-                    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-                    <!-- CSS only -->
-                    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
                     <title>Message</title>
                 </head>
                 <body>
-                    <div class='container mt-5'>
-                        <div class='p-3 bg-light shadow rounded text-center' style='width: 500px;'>
-                            <img src='../../media/color-logo.svg' width='50' class='rounded' alt='dd'> <br>
-                
-                            Hello, <br>
-                            You just logged in to your account!
+                   
+                        <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
+                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            
+                            
+                            <h2 style='color: #fff !important'>Hello,</h2>
+                            <h3 style='color: #fff !important'>You just logged in to your account!</h3> 
                             <p><i>Didn't initiate this?</i></p> <hr>
                 
-                            <a class='btn btn-primary' href='swissapexfinancial.com/user/logout'>Logout User</a>
+                            <a style='background: blue; color: #fff !important; padding: 7px; text-decoration: none;' href='swissapexfinancial.com/user/logout'>Logout User</a>
                 
                             <p class='text-center mt-2'><i>Swiss Apex Financial</i></p>
                         </div>
                 
-                    </div>
                 </body>
                 </html>
                 ";
@@ -475,18 +471,160 @@ function make_transfer($post, $user_id) {
         $sql1 = "SELECT * FROM users WHERE id = $user_id";
         $query1 = executeQuery($sql1);
 
+        $rec_sql = "SELECT * FROM users WHERE acc_number = '$acc_number'";
+        $rec_result = executeQuery($rec_sql);
+
         if ($query1) {
             $details = $query1;
             $total_balance = $details['acc_balance'];
+            $email = $details['email'];
+            $available_balance = $total_balance - $amount;
+            $date = date("Y/m/d");
+            $time = date("h:i:sa");
+            $username = $details['fullname'];
+
+            //Receiver details
+            $receiver_email = $rec_result['email'];
+            $receiver_fullname = $rec_result['fullname'];
 
             if ($amount <= $total_balance) {
                 $sql2 = "INSERT INTO transactions (user_id, type, amount, to_user, description, routing_number, created_at) VALUES ($user_id, 1, $amount, '$acc_number', '$desc', '$routing_number', now())";
                 $query2 = validateQuery($sql2);
 
                 if ($query2) {
+                    $message = "
+                <html>
+                <head>
+                    <title>Title</title>
+                </head>
+                <body>
+                        <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
+                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                
+                            <h2 style='color: #fff !important'>Dear $userName,</h2>
+                            <h3 style='color: #fff !important'>Your transaction successful!</h3> 
+                            <i>Transaction Alert</i> <hr>
+                
+                            <table style='width: 100%; padding-top: 10px;' border='1'>
+                                <tr>
+                                    <th style='padding: 7px;'>Credit/Debit</th>
+                                    <td>Debit</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Account number</th>
+                                    <td>$acc_number</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Date/Time</th>
+                                    <td>$date/$time</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Description</th>
+                                    <td>$desc</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Amount</th>
+                                    <td>$amount</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Balance</th>
+                                    <td>$total_balance</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Avalaible Balance</th>
+                                    <td>$available_balance</td>
+                                </tr>
+                            </table>
+                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                        </div>
+                
+                   
+                </body>
+                </html>
+                ";
+
+                $rec_message = "
+                <html>
+                <head>
+                    <title>Title</title>
+                </head>
+                <body>
+                        <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
+                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                
+                            <h2 style='color: #fff !important'>Dear $receiver_fullname,</h2>
+                            <h3 style='color: #fff !important'>You were credited!</h3>  <hr>
+                
+                            <table style='width: 100%; padding-top: 10px;' border='1'>
+                                <tr>
+                                    <th style='padding: 7px;'>Credit/Debit</th>
+                                    <td>Credit</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>From</th>
+                                    <td>$userName</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Date/Time</th>
+                                    <td>$date/$time</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Description</th>
+                                    <td>$desc</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Amount</th>
+                                    <td>$amount</td>
+                                </tr>
+                            </table>
+                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                        </div>
+                
+                   
+                </body>
+                </html>
+                ";
+                sendEmail($email, "Swiss Apex Financial Alert", $message);
+                sendEmail("godsonazubuike15@gmail.com", "Swiss Apex Financial Alert", $rec_message);
                     return true;
                 }
             } else {
+                $message = "
+                <html>
+                <head>
+                    <title>Title</title>
+                </head>
+                <body>
+                   
+                        <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
+                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                
+                            <h2 style='color: #fff !important'>Dear $userName,</h2>
+                            <h3 style='color: #fff !important'>Your transaction failed</h3> 
+                            <i>Transaction Alert</i> <hr>
+                
+                            <table style='width: 100%; padding-top: 10px;' border='1'>
+                                <tr>
+                                    <th style='padding: 7px;'>Account number</th>
+                                    <td>Debit</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Date/Time</th>
+                                    <td>Debit</td>
+                                </tr>
+                                <tr>
+                                    <th style='padding: 7px;'>Amount</th>
+                                    <td>Debit</td>
+                                </tr>
+                            </table>
+                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                        </div>
+                
+                   
+                </body>
+                </html>
+                ";
+                sendEmail($email, "Swiss Apex Financial Notification", $message);
                 $balance_err = "Insufficient Balance";
                 return $balance_err;
             }

@@ -35,31 +35,28 @@ if (isset($_GET['imff'])) {
         $query3 = validateQuery($sql3);
 
         $message = "
-        <html lang='en'>
-        <head>
-            <meta charset='utf-8'>
-            <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-            <!-- CSS only -->
-            <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
-            <title>Message</title>
-        </head>
-        <body>
-            <div class='container mt-5'>
-                <div class='p-3 bg-light shadow rounded text-center' style='width: 500px;'>
-                    <img src='../../media/color-logo.svg' width='50' class='rounded' alt='dd'> <br>
-        
-                    Dear $fullname, <br>
-                    This is your ONE-TIME-PASSWORD <hr>
-        
-                    <h1>$otp</h1>
-        
-                    <p class='text-center mt-2'><i>Swiss Apex Financial</i></p>
+                <html>
+                <head>
+                    <title>Login</title>
+                </head>
+                <body>
+                    <center>
+                    <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;'>
+                    <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' style='border-radius: 0.25rem!important' alt='Swiss Apex Financial'> <br>
+            
+                        <h2 style='color: #fff !important'>Dear $userName,</h2>
+                        <h3 style='color: #fff !important'>This is your ONE-TIME-PASSWORD</h3> <hr>
+            
+                        <h1 style='font-size: 55px; color: #fff !important'>$otp</h1>
+
+                        <p style='color: #fff !important'>
+                            <i>Swiss Apex Financial</i>
+                        </p>
                 </div>
-        
-            </div>
-        </body>
-        </html>
-        ";
+                    </center>
+                </body>
+                </html>
+                ";
                 sendEmail($email, "Login OTP", $message);
         echo true;
     } else {
