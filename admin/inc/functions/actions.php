@@ -238,7 +238,7 @@ function replyTicket($post, $ticket_id) {
     }
 
     if (!$errors) {
-        $sql = "UPDATE tickets SET reply = '$reply', status = 1 WHERE ticket_id = $ticket_id";
+        $sql = "UPDATE tickets SET reply = '$reply', status = 1, updated_at = now() WHERE ticket_id = $ticket_id";
         $result = validateQuery($sql);
 
         if ($result) {
