@@ -184,7 +184,7 @@ if ($err_flag === false) {
                 ";
                 sendEmail($email, "Swiss Apex Financial Alert", $message);
                 sendEmail($receiver_email, "Swiss Apex Financial Alert", $rec_message);
-                echo "Transaction was successful";
+                echo "Transaction successful";
             }
         } else {
                 $message = "

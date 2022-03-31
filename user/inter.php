@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
 
     $response = wire_transfer($_POST, $id);
     if ($response === true) {
-        echo "Transfer was successful";
+        echo "Transaction successful";
     } else {
         $errors = $response;
         if (is_array($errors)) {

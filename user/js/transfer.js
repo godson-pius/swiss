@@ -22,8 +22,8 @@ wireForm.addEventListener('submit', (e) => {
                                 method: "post",
                                 body: form
                             }).then(f => f).then(f => f.text()).then(f => {
-                                if (f == "Transaction was successful") {
-                                    alert('Transaction was successful');
+                                if (f == "Transaction successful") {
+                                    alert('Transaction successful');
                                     window.location.href = "pending"
                                 } else if (f === "failed") {
                                     alert('Please check your form inputs and try again')
