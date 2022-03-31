@@ -15,6 +15,10 @@ function sanitize_body($body)
     return $body;
 }
 
+function ALLOW_SAFE_SYMBOLS($input) {
+    return str_replace("'", "&#39;", "$input");
+}
+
 function redirect_to($url)
 {
     $url = urldecode($url);

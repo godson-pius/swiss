@@ -186,6 +186,15 @@ foreach ($admin_details as $admin) {
                                 </li>
                             </ul>
                         </li>
+
+                        <li class="nav-main-heading">Tickets</li>
+
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" aria-haspopup="true" aria-expanded="false" href="tickets">
+                                <i class="nav-main-link-icon fa fa-comments"></i>
+                                <span class="nav-main-link-name">View tickets</span>
+                            </a>
+                        </li>
                      
                         <li class="nav-main-heading">Authentication</li>
                        

@@ -458,7 +458,7 @@ function make_transfer($post, $user_id) {
     }
     
     if (!empty($desc)) {
-        $desc = sanitize($desc);
+        $desc = ALLOW_SAFE_SYMBOLS(sanitize($desc));
     } else {
         $err_flag = true;
         $errors[] = "Enter transaction description!";
@@ -499,7 +499,7 @@ function make_transfer($post, $user_id) {
                             <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $username,</h2>
-                            <h3 style='color: #fff !important'>Your transaction successful!</h3> 
+                            <h3 style='color: #fff !important'>Your transaction was successful!</h3> 
                             <i>Transaction Alert</i> <hr>
                 
                             <table style='width: 100%; padding-top: 10px;' border='1'>
@@ -682,7 +682,7 @@ function wire_transfer($post, $user_id) {
     }
     
     if (!empty($desc)) {
-        $desc = sanitize($desc);
+        $desc = ALLOW_SAFE_SYMBOLS(sanitize($desc));
     } else {
         $err_flag = true;
         $errors[] = "Enter description!";
@@ -796,4 +796,38 @@ function updateProfileImage($post, $user_id) {
     } else {
         return $errors;
     }
+}
+
+function sendTicket($post) { 
+    extract($post);
+    $errors = [];
+
+    if (!empty($subject)) {
+        $subject = ALLOW_SAFE_SYMBOLS(sanitize($subject));
+    } else {
+        $errors[] = "Please enter ticket subject";
+    }
+    
+    
+    if (!empty($query)) {
+        $query = ALLOW_SAFE_SYMBOLS(sanitize($query));
+    } else {
+        $errors[] = "Please enter ticket query";
+    }
+
+    if (!$errors) {
+        $sql = "INSERT INTO tickets (sender_acc, sender_name, subject, query) VALUES ('$acc_number', '$username', '$subject', '$query')";
+
+        $result = validateQuery($sql);
+
+        if ($result) {
+            return true;
+        } else {
+            return "Please try sending again";
+        }
+    } else {
+        return $errors;
+    }
+
+
 }

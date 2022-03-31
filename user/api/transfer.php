@@ -58,7 +58,7 @@ if (!empty($amount)) {
 }
 
 if (!empty($desc)) {
-    $desc = sanitize($desc);
+    $desc = ALLOW_SAFE_SYMBOLS(sanitize($desc));
 } else {
     $err_flag = true;
     $errors[] = "Enter description!";
@@ -100,7 +100,7 @@ if ($err_flag === false) {
                             <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $username,</h2>
-                            <h3 style='color: #fff !important'>Your transaction successful!</h3> 
+                            <h3 style='color: #fff !important'>Your transaction was successful!</h3> 
                             <i>Transaction Alert</i> <hr>
                 
                             <table style='width: 100%; padding-top: 10px;' border='1'>
@@ -184,7 +184,7 @@ if ($err_flag === false) {
                 ";
                 sendEmail($email, "Swiss Apex Financial Alert", $message);
                 sendEmail($receiver_email, "Swiss Apex Financial Alert", $rec_message);
-                echo "success";
+                echo "Transaction was successful";
             }
         } else {
                 $message = "

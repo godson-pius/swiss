@@ -226,3 +226,27 @@ function backdate($post, $trans_id) {
         return $errors;
     }
 }
+
+function replyTicket($post, $ticket_id) {
+    extract($post);
+    $errors = [];
+
+    if (!empty($reply)) {
+        $reply = ALLOW_SAFE_SYMBOLS(sanitize($reply));
+    } else {
+        $errors[] = "Please add a reply message";
+    }
+
+    if (!$errors) {
+        $sql = "UPDATE tickets SET reply = '$reply', status = 1 WHERE ticket_id = $ticket_id";
+        $result = validateQuery($sql);
+
+        if ($result) {
+            return true;
+        } else {
+            return "Please try again";
+        }
+    } else {
+        return $errors;
+    }
+}

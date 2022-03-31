@@ -375,8 +375,23 @@ if ($title == "transfer" && $access == 0) {
                             </ul>
                         </li>
                         <li class="nav-main-heading">Personal</li>
+
                         <li class="nav-main-item">
-                            <a class="nav-main-link <?php if ($title == 'profile') : echo 'active'; endif; ?>" href="edit-profile.php">
+                            <a class="nav-main-link <?php if ($title == 'ticket') : echo 'active'; endif; ?>" href="ticket">
+                                <i class="nav-main-link-icon fa fa-edit"></i>
+                                <span class="nav-main-link-name">Create Ticket</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="messages">
+                                <span class="nav-main-link-name">Messages</span>
+                                <span class="nav-main-link-badge badge badge-pill badge-success"><?= getTotalAnd("tickets", "status", 1, "sender_acc", $acc_number); ?></span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-main-item">
+                            <a class="nav-main-link <?php if ($title == 'profile') : echo 'active'; endif; ?>" href="edit-profile">
                                 <i class="nav-main-link-icon fa fa-user-circle"></i>
                                 <span class="nav-main-link-name">Profile</span>
                             </a>

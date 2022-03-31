@@ -49,7 +49,7 @@ foreach ($total_income as $income) {
         <?php if ($access == 0) { ?>
             <div class="row">
                 <div class="col-lg-12 bg-warning mb-3 text-dark text-center p-2 rounded">
-                    <b>Your account is disabled! So you can't make transactions.</b>
+                    <b>Your account is disabled! Please contact customer service.</b>
                 </div>
             </div>
         <?php } ?>
