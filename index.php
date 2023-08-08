@@ -12,19 +12,19 @@
                     <div class="col-lg-7">
                         <ul class="slider" data-options="type:slider,perView:1,arrows:true,nav:true,autoplay:3500" data-anima="fade-right" data-time="2000">
                             <li>
-                                <h1>WELCOME TO SWISS APEX FINANCIAL</h1>
+                                <h1>WELCOME TO Horizon Trustco</h1>
                                 <a class="img-box" href="#">
                                     <img src="./media/image-3.jpg" alt="">
                                 </a>
                             </li>
                             <li>
-                                <h1>SWISS APEX FINANCIAL</h1>
+                                <h1>Horizon Trustco</h1>
                                 <a class="img-box" href="#">
                                     <img src="./media/image-8.jpg" alt="">
                                 </a>
                             </li>
                             <li>
-                                <h1>SWISS APEX FINANCIAL</h1>
+                                <h1>Horizon Trustco</h1>
                                 <a class="img-box" href="#">
                                     <img src="./media/image-6.jpg" alt="">
                                 </a>
@@ -113,7 +113,7 @@
                             <li>
                                 <a class="img-box img-box-caption  lightbox" href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ" data-lightbox-anima="fade-top">
                                     <img src="media/image-4.jpg" alt="">
-                                    <span>Swiss Apex financial</span>
+                                    <span>Horizon Trustco</span>
                                 </a>
                             </li>
                             <li>
@@ -130,7 +130,7 @@
                             <p>About us</p>
                         </div>
                         <p>
-                            Swiss Apex financial Bank an affiliate of Zurich Cantonal Bank 
+                            Horizon Trustco Bank an affiliate of Zurich Cantonal Bank 
                             Putting "You First" with personal service is our primary goal. 
                             We offer: great Checking account options including the latest in online banking 
                             services, competitive rates on CDs, IRAs, Savings accounts and more! Our bank is 
