@@ -91,10 +91,10 @@ function user_register($post) {
                 <body>
                     
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                        <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                        <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Hello,</h2>
-                            <h3 style='color: #fff !important'>Welcome to swissapexfinancial. The bank that serves all customers equally on a daily basis</h3> 
+                            <h3 style='color: #fff !important'>Welcome to Horizon Trustco. The bank that serves all customers equally on a daily basis</h3> 
                             <i>Your details are as follows:</i> <hr>
                             
                 
@@ -120,14 +120,14 @@ function user_register($post) {
                                     <td>$acc_type</td>
                                 </tr>
                             </table>
-                            <p style='color: #fff !important'><i>Thank you for choosing Swiss Apex Financial</i></p>
+                            <p style='color: #fff !important'><i>Thank you for choosing Horizon Trustco</i></p>
                         </div>
                 
                  
                 </body>
                 </html>
                 ";
-                sendEmail($email, "Welcome to Swiss Apex Financial", $message);
+                sendEmail($email, "Welcome to Horizon Trustco", $message);
             return true;
         } else {
             $errors[] = "Check form inputs";
@@ -184,7 +184,7 @@ function user_login($post)
                 <body>
                     <center>
                     <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;'>
-                    <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' style='border-radius: 0.25rem!important' alt='Swiss Apex Financial'> <br>
+                    <img src='https://horizontrustco.com/media/color-logo.png' width='150' style='border-radius: 0.25rem!important' alt='Horizon Trustco'> <br>
             
                         <h2 style='color: #fff !important'>Dear $userName,</h2>
                         <h3 style='color: #fff !important'>This is your ONE-TIME-PASSWORD</h3> <hr>
@@ -193,7 +193,7 @@ function user_login($post)
 
                         <p style='color: #fff !important'>
                             <i>Use this Passcode to complete your Login.</i> <br>
-                            <i>Swiss Apex Financial</i>
+                            <i>Horizon Trustco</i>
                         </p>
                 </div>
                     </center>
@@ -274,22 +274,22 @@ function confirmPin($post) {
                 <body>
                    
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                             
                             
                             <h2 style='color: #fff !important'>Hello,</h2>
                             <h3 style='color: #fff !important'>You just logged in to your account!</h3> 
                             <p><i>Didn't initiate this?</i></p> <hr>
                 
-                            <a style='background: blue; color: #fff !important; padding: 7px; text-decoration: none;' href='swissapexfinancial.com/user/logout'>Logout User</a>
+                            <a style='background: blue; color: #fff !important; padding: 7px; text-decoration: none;' href='horizontrustco.com/user/logout'>Logout User</a>
                 
-                            <p class='text-center mt-2'><i>Swiss Apex Financial</i></p>
+                            <p class='text-center mt-2'><i>Horizon Trustco</i></p>
                         </div>
                 
                 </body>
                 </html>
                 ";
-                sendEmail($email, "Swiss Apex Financial Login Notification", $message);
+                sendEmail($email, "Horizon Trustco Login Notification", $message);
             return true;
         } else {
             return "Invaild pin provided";
@@ -496,7 +496,7 @@ function make_transfer($post, $user_id) {
                 </head>
                 <body>
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $username,</h2>
                             <h3 style='color: #fff !important'>Your transaction was successful!</h3> 
@@ -532,7 +532,7 @@ function make_transfer($post, $user_id) {
                                     <td>USD $available_balance</td>
                                 </tr>
                             </table>
-                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                            <p style='color: #fff !important'><i>Horizon Trustco</i></p>
                         </div>
                 
                    
@@ -547,7 +547,7 @@ function make_transfer($post, $user_id) {
                 </head>
                 <body>
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $receiver_fullname,</h2>
                             <h3 style='color: #fff !important'>You were credited!</h3>  <hr>
@@ -574,15 +574,15 @@ function make_transfer($post, $user_id) {
                                     <td>USD $amount</td>
                                 </tr>
                             </table>
-                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                            <p style='color: #fff !important'><i>Horizon Trustco</i></p>
                         </div>
                 
                    
                 </body>
                 </html>
                 ";
-                sendEmail($email, "Swiss Apex Financial Alert", $message);
-                sendEmail($receiver_email, "Swiss Apex Financial Alert", $rec_message);
+                sendEmail($email, "Horizon Trustco Alert", $message);
+                sendEmail($receiver_email, "Horizon Trustco Alert", $rec_message);
                     return true;
                 }
             } else {
@@ -594,7 +594,7 @@ function make_transfer($post, $user_id) {
                 <body>
                    
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $userName,</h2>
                             <h3 style='color: #fff !important'>Your transaction failed</h3> 
@@ -614,14 +614,14 @@ function make_transfer($post, $user_id) {
                                 <td>USD $amount</td>
                             </tr>
                             </table>
-                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                            <p style='color: #fff !important'><i>Horizon Trustco</i></p>
                         </div>
                 
                    
                 </body>
                 </html>
                 ";
-                sendEmail($email, "Swiss Apex Financial Notification", $message);
+                sendEmail($email, "Horizon Trustco Notification", $message);
                 $balance_err = "Insufficient Balance";
                 return $balance_err;
             }
