@@ -5,10 +5,6 @@ RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php
 #RewriteRule ^([a-z]+)\/?$ $1.php [NC]
 
-RewriteCond %{HTTP_HOST} ^horizontrustco\.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.horizontrustco.com/$1 [R,L]
-
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
