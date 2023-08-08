@@ -26,7 +26,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <title>Sign Up | SAF Bank</title>
+    <title>Sign Up | Horizon Trustco</title>
 
     <meta name="description" content="Sign Up | SAF Bank">
     <meta name="author" content="pixelcave">
