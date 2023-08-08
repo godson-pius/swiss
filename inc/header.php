@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Swiss Apex Financial</title>
-    <meta name="description" content="This site belongs to Swiss Apex Financial Bank">
+    <title>Horizon Trustco</title>
+    <meta name="description" content="This site belongs to Horizon Trustco Bank">
     <link rel="stylesheet" href="themekit/css/bootstrap-grid.css">
     <link rel="stylesheet" href="themekit/css/style.css">
     <link rel="stylesheet" href="themekit/css/glide.css">
