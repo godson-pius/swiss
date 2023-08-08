@@ -35,7 +35,7 @@
                         <div class="row">
                             
                             <div class="col-lg-8" data-anima="fade-right" data-time="4000">
-                                <h2><span>Swiss Apex</span> Financial  </h2>
+                                <h2><span>Horizon</span> Trustco  </h2>
                                 <p>
                                 Get the financial tools and insights to start, build, and grow your business.
                                 </p>
