@@ -29,16 +29,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-        <title>Sign In | Swiss Apex Financial</title>
+        <title>Sign In | Horizon Trustco</title>
 
-        <meta name="description" content="Sign In | Swiss Apex Financial Bank created by pixelcave and published on Themeforest">
+        <meta name="description" content="Sign In | Horizon Trustco Bank created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
         <meta name="robots" content="noindex, nofollow">
 
         <!-- Open Graph Meta -->
-        <meta property="og:title" content="Sign In | Swiss Apex Financial Bank">
-        <meta property="og:site_name" content="Swiss Apex Financial">
-        <meta property="og:description" content="Sign In | Swiss Apex Financial Bank">
+        <meta property="og:title" content="Sign In | Horizon Trustco Bank">
+        <meta property="og:site_name" content="Horizon Trustco">
+        <meta property="og:description" content="Sign In | Horizon Trustco Bank">
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:image" content="">
@@ -124,7 +124,7 @@
                                 <div class="mb-3 text-center">
                                     
                                     <a class="font-w700 font-size-h1" href="../">
-                                        <!-- <span class="text-dark">Swiss Apex Financial </span><span class="text-primary">Bank</span> -->
+                                        <!-- <span class="text-dark">Horizon Trustco </span><span class="text-primary">Bank</span> -->
                                         <img src="../media/color-logo.svg" width="200" alt=""> <br>
                                     </a>
                                     <p class="text-uppercase font-w700 font-size-sm text-muted">Sign In</p>
@@ -170,7 +170,7 @@
                         <div class="hero-static col-md-6 d-none d-md-flex align-items-md-center justify-content-md-center text-md-center">
                             <div class="p-3">
                                 <p class="display-4 font-w700 text-white mb-3">
-                                Welcome to Swiss Apex Financial Bank 
+                                Welcome to Horizon Trustco Bank 
                                 </p>
                                 <p class="text-white">Building a better life with banking</p>
                                 <p class="font-size-lg font-w600 text-white-75 mb-0">
