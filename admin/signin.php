@@ -26,16 +26,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-        <title>Sign In | SAF Bank</title>
+        <title>Sign In | Horizon Trustco</title>
 
-        <meta name="description" content="Sign In | SAF Bank">
-        <meta name="author" content="SAF Bank">
+        <meta name="description" content="Sign In | Horizon Trustco">
+        <meta name="author" content="Horizon Trustco">
         <meta name="robots" content="noindex, nofollow">
 
         <!-- Open Graph Meta -->
-        <meta property="og:title" content="Sign In | SAF Bank">
+        <meta property="og:title" content="Sign In | Horizon Trustco">
         <meta property="og:site_name" content="SAF">
-        <meta property="og:description" content="Sign In | SAF Bank">
+        <meta property="og:description" content="Sign In | Horizon Trustco">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://wwww.swissapexfinancial.com">
         <meta property="og:image" content="">
@@ -165,7 +165,7 @@
                         <div class="hero-static col-md-6 d-none d-md-flex align-items-md-center justify-content-md-center text-md-center">
                             <div class="p-3">
                                 <p class="display-4 font-w700 text-white mb-3">
-                                    Welcome to SAF Bank 
+                                    Welcome to Horizon Trustco 
                                 </p>
                                 <p class="text-white">Building a better life with banking</p>
                                 <p class="font-size-lg font-w600 text-white-75 mb-0 mt-10">
