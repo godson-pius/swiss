@@ -37,7 +37,7 @@
         <meta property="og:site_name" content="SAF">
         <meta property="og:description" content="Sign In | Horizon Trustco">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://wwww.swissapexfinancial.com">
+        <meta property="og:url" content="https://www.horizontrustco.com">
         <meta property="og:image" content="">
 
         <!-- Icons -->
