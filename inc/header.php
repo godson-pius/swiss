@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="themekit/css/contact-form.css">
     <link rel="stylesheet" href="themekit/css/media-box.css">
     <link rel="stylesheet" href="skin.css">
-    <link rel="icon" href="media/color-logo.svg">
+    <link rel="icon" href="media/color-logo.png">
 
     <style>
         body > nav .menu-brand img {
@@ -31,10 +31,10 @@
         <div class="container">
             <div class="menu-brand">
                 <a href="#">
-                    <img class="logo-default scroll-hide" src="media/color-logo.svg" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="media/color-logo.svg" alt="logo" />
-                    <img class="logo-default scroll-show" src="media/color-logo.svg" alt="logo" />
-                    <img class="logo-retina scroll-show" src="media/color-logo.svg" alt="logo" />
+                    <img class="logo-default scroll-hide" src="media/color-logo.png" alt="logo" />
+                    <img class="logo-retina scroll-hide" src="media/color-logo.png" alt="logo" />
+                    <img class="logo-default scroll-show" src="media/color-logo.png" alt="logo" />
+                    <img class="logo-retina scroll-show" src="media/color-logo.png" alt="logo" />
                 </a>
             </div>
             <i class="menu-btn"></i>

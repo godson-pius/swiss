@@ -43,9 +43,9 @@
 
         <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-    <link rel="shortcut icon" href=".../media/color-logo.svg">
-    <link rel="icon" type="image/png" sizes="192x192" href="../media/color-logo.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="../media/color-logo.svg">
+    <link rel="shortcut icon" href=".../media/color-logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../media/color-logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../media/color-logo.png">
     <!-- END Icons -->
 
         <!-- Stylesheets -->
@@ -122,7 +122,7 @@
                                 <div class="mb-3 text-center">
                                     <a class="link-fx font-w700 font-size-h1" href="../">
                                         <!-- <span class="text-dark">SAF</span><span class="text-primary">Horizon Trustco</span> -->
-                                        <img src="../media/color-logo.svg" width="200" alt=""> <br>
+                                        <img src="../media/color-logo.png" width="200" alt=""> <br>
                                     </a>
                                     <p class="text-uppercase font-w700 font-size-sm text-muted">Verify Login</p>
                                 </div>

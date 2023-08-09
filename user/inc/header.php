@@ -41,9 +41,9 @@ if ($title == "transfer" && $access == 0) {
 
     <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-    <link rel="shortcut icon" href="../media/color-logo.svg">
-    <link rel="icon" type="image/png" sizes="192x192" href="../media/color-logo.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="../media/color-logo.svg">
+    <link rel="shortcut icon" href="../media/color-logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../media/color-logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../media/color-logo.png">
     <!-- END Icons -->
 
     <!-- Stylesheets -->
