@@ -30,8 +30,8 @@ foreach ($admin_details as $admin) {
 
     <!-- Open Graph Meta -->
     <meta property="og:title" content="Admin Dashboard">
-    <meta property="og:site_name" content="Dashmix">
-    <meta property="og:description" content="Admin Dashboard">
+    <meta property="og:site_name" content="Horizon Trustco">
+    <meta property="og:description" content="Horizon Trustco Dashboard">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
