@@ -24,7 +24,7 @@
                             your individual needs. We're eager to help you profit and grow in your business.   
                             Feel free to contact a <a href="loan-officers.html" style="color: blue;">loan officer</a>. <br><br>
                             If you are acquiring commercial real estate, constructing a new facility, or expanding an existing business, 
-                            consider the experienced lenders at Swiss Apex Private Bank to assist you in your financing needs. Whether your 
+                            consider the experienced lenders at Horizon Trustco Bank to assist you in your financing needs. Whether your 
                             loan request is $5,000 or $5 million, our lenders have the resources to work with you and your business.
                         </p>
                     </div>                  
@@ -33,7 +33,7 @@
                 <p>
                     We are your local bank, with local lenders, who make local decisions. Our local lending also supports 
                     the growth of our Arkansas communities by putting local deposits to work right here at home. Call on the 
-                    listening lenders at Swiss Apex Private Bank to help your business prosper. 
+                    listening lenders at Horizon Trustco Bank to help your business prosper. 
                 </p><br>
 
                 <div>
@@ -50,7 +50,7 @@
                     <p>
                         For more detailed information come in to any of our convenient locations. To request a meeting with 
                         a loan officer at one of our branches, please complete our <a href="apply.html" style="color: blue;">Jumpstart application</a>. Email Us during business 
-                        hours at info@swissapexprivateb.com.
+                        hours at info@horizontrustco.com.
                     </p>
                 </div>
 

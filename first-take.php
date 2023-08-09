@@ -19,7 +19,7 @@
                     <div>
                         <p>
                             Welcome to First Take! Our marketing team hosts a bi-weekly podcast that gives you the latest news and 
-                            information on the banking world as well as things going on  at Swiss Apex Private Bank. First Take: The Least Boring Banking Podcast is available
+                            information on the banking world as well as things going on  at Horizon Trustco Bank. First Take: The Least Boring Banking Podcast is available
                             here(Opens in a new Window) or wherever you listen to your podcasts.
                         </p><br>
                     </div>
@@ -56,7 +56,7 @@
                             the association said to Politifact reporter Tom Kertscher. (Politifact article by Tom Kertscher)
                         </p><br>
                         <p>
-                            Once again, this legislation still has a long way to go before ever becoming law. That being said, Swiss Apex Private Bank 
+                            Once again, this legislation still has a long way to go before ever becoming law. That being said, Horizon Trustco Bank 
                             recognizes the concern from our customers and wanted to bring you the facts as we knew them.
                         </p><br>
                         <p>

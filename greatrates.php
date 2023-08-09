@@ -4,7 +4,7 @@
     <header class="header-image ken-burn-center light" data-parallax="true" data-natural-height="500" data-natural-width="1920" data-bleed="0" data-image-src="" data-offset="0" style="background-color: #404D60;">
         <div class="container">
             <h1>Great Rates</h1>
-            <h2>Swiss Apex Financial</h2>            
+            <h2>Horizon Trustco</h2>            
             
         </div>
     </header>

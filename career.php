@@ -5,7 +5,7 @@
         <div class="container">
             <h1>Build A Career Here <br /> That Will Grow <br /> As You Do.
 </h1>
-            <h2>Swiss Apex Financial</h2>            
+            <h2>Horizon Trustco</h2>            
             
         </div>
     </header>
@@ -21,7 +21,7 @@
                     
                     <div class="col-lg-8">
                         <p>
-                            Swiss Apex Financial is one of the world's oldest, largest and best-known financial system. With a history that traces our roots to 1799, we carry forth the innovative spirit of our heritage firms in our global operations in over 60 countries. 
+                            Horizon Trustco is one of the world's oldest, largest and best-known financial system. With a history that traces our roots to 1799, we carry forth the innovative spirit of our heritage firms in our global operations in over 60 countries. 
                         </p>
                         <a href="./contacts" class="btn btn-xs" type="button">Apply Now</a>
                     </div>                  

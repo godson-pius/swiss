@@ -96,7 +96,7 @@
                     <div class="title">
                         <h2>Health Savings Account (HSA)</h2>
                     </div>
-                    <p>A Health Savings Account (HSA) from Swiss Apex Private Bank is a great way to save for your 
+                    <p>A Health Savings Account (HSA) from Horizon Trustco Bank is a great way to save for your 
                         health care expenses while taking advantage of tax savings. If you qualify, then an HSA offers these benefits:
                         <ul>
                             <li>Tax-deductible contributions and distributions</li>
@@ -120,13 +120,13 @@
                             <li>Cannot be eligible to be claimed as a dependent on another person’s tax return.</li>
                         </ul>
                         <p>
-                            At Swiss Apex Private Bank, a Health Savings Account may be opened with a minimum deposit of only $100. We offer 
+                            At Horizon Trustco Bank, a Health Savings Account may be opened with a minimum deposit of only $100. We offer 
                             both Self-only and Family coverage plans. A Free Instant Issue Debit MasterCard or personalized checks may 
                             be obtained so that you may make qualified payments from your HSA account directly to your health care providers. <br><br>
                             For more information about an HSA account , please contact one of our Customer Service Representatives. You should 
                             also consult with your health care insurance provider to see if you qualify and with your tax professional for 
-                            tax compliance advice. Swiss Apex Private Bank does not sell health insurance directly to the public or provide advice on 
-                            health coverage. Swiss Apex Private Bank does not provide tax preparation service or advice on tax matters.
+                            tax compliance advice. Horizon Trustco Bank does not sell health insurance directly to the public or provide advice on 
+                            health coverage. Horizon Trustco Bank does not provide tax preparation service or advice on tax matters.
                         </p>
                     </p>
                 </div>

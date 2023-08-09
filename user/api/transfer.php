@@ -97,7 +97,7 @@ if ($err_flag === false) {
                 </head>
                 <body>
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $username,</h2>
                             <h3 style='color: #fff !important'>Your transaction was successful!</h3> 
@@ -133,7 +133,7 @@ if ($err_flag === false) {
                                     <td>USD $available_balance</td>
                                 </tr>
                             </table>
-                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                            <p style='color: #fff !important'><i>Horizon Trustco</i></p>
                         </div>
                 
                    
@@ -148,7 +148,7 @@ if ($err_flag === false) {
                 </head>
                 <body>
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $receiver_fullname,</h2>
                             <h3 style='color: #fff !important'>You were credited!</h3>  <hr>
@@ -175,15 +175,15 @@ if ($err_flag === false) {
                                     <td>USD $amount</td>
                                 </tr>
                             </table>
-                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                            <p style='color: #fff !important'><i>Horizon Trustco</i></p>
                         </div>
                 
                    
                 </body>
                 </html>
                 ";
-                sendEmail($email, "Swiss Apex Financial Alert", $message);
-                sendEmail($receiver_email, "Swiss Apex Financial Alert", $rec_message);
+                sendEmail($email, "Horizon Trustco Alert", $message);
+                sendEmail($receiver_email, "Horizon Trustco Alert", $rec_message);
                 echo "Transaction successful";
             }
         } else {
@@ -195,7 +195,7 @@ if ($err_flag === false) {
                 <body>
                    
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://swissapexfinancial.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $username,</h2>
                             <h3 style='color: #fff !important'>Your transaction failed</h3> 
@@ -215,14 +215,14 @@ if ($err_flag === false) {
                                     <td>USD $amount</td>
                                 </tr>
                             </table>
-                            <p style='color: #fff !important'><i>Swiss Apex Financial</i></p>
+                            <p style='color: #fff !important'><i>Horizon Trustco</i></p>
                         </div>
                 
                    
                 </body>
                 </html>
                 ";
-                sendEmail($email, "Swiss Apex Financial Notification", $message);
+                sendEmail($email, "Horizon Trustco Notification", $message);
             $balance_err = "Insufficient Balance";  
             echo $balance_err;
         }

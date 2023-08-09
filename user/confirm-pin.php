@@ -30,16 +30,16 @@ if (isset($_POST['submit'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <title>Confirm Pin | Swiss Apex Financial</title>
+    <title>Confirm Pin | Horizon Trustco</title>
 
-    <meta name="description" content="Confirm Pin | Swiss Apex Financial">
+    <meta name="description" content="Confirm Pin | Horizon Trustco">
     <meta name="author" content="pixelcave">
     <meta name="robots" content="noindex, nofollow">
 
     <!-- Open Graph Meta -->
-    <meta property="og:title" content="Confirm Pin | Swiss Apex Financial">
+    <meta property="og:title" content="Confirm Pin | Horizon Trustco">
     <meta property="og:site_name" content="SAF">
-    <meta property="og:description" content="Confirm Pin | Swiss Apex Financial">
+    <meta property="og:description" content="Confirm Pin | Horizon Trustco">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
     <meta property="og:image" content="">

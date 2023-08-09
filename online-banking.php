@@ -101,7 +101,7 @@
                             <div class="caption">
                                 <h2>Growing in Jonesboro</h2>
                                 <p>
-                                    Swiss Apex Private Financial Park
+                                    Horizon Trustco Financial Park
                                 </p>
                             </div>
                         </div>

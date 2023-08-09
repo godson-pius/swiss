@@ -39,7 +39,7 @@
                         Mobile Wallet is also available for your Debit Mastercard to make 
                         purchases using your phone. <br>
                         The Debit card ATM withdrawal limit is $500 per day.  There is a $1 per transaction fee for cash 
-                        withdrawals from ATMs not owned by Swiss Apex Private Bank of Paragould, Arkansas. There may also 
+                        withdrawals from ATMs not owned by Horizon Trustco Bank of Paragould, Arkansas. There may also 
                         be a transaction fee assessed by the owner of the ATM.
                     </p>
                 </div>                
@@ -57,7 +57,7 @@
                         than with cash or checks, thus increasing your sales. Our merchant credit/debit card vendor can provide 
                         equipment and service for debit/credit card acceptance payment for most any operating environment. 
                         You will also receive competitive rates and pricing on equipment. <br><br>
-                        For more information on Merchant Card Payment Service or to get started contact us or call info@swissapexprivateb.com. 
+                        For more information on Merchant Card Payment Service or to get started contact us or call info@horizontrustco.com. 
                         Ask one of Customer Service Representatives for more about how you can accept cards as payment in your business. 
                     </p>
                 </div>
@@ -69,12 +69,12 @@
                     </div>
 
                     <p>
-                        Low rates, local service with worldwide access are advantages that a credit card from Swiss Apex Private 
+                        Low rates, local service with worldwide access are advantages that a credit card from Horizon Trustco 
                         Bank has over an out-of-state credit card company. Many credit cards may offer you a low "introductory" rate 
                         then raise your rate after a few months. But SAPB offers you a consistently low rate MasterCard. At SAPB you also 
                         have the many advantages of local bank service. Local service means that you make your payments right here at SAPB. 
                         Local service also means you can speak to your SAPB loan officer when you need to increase your credit line. <br><br>
-                        You can shop locally or travel the world and with your MasterCard issued from Swiss Apex Private Bank. 
+                        You can shop locally or travel the world and with your MasterCard issued from Horizon Trustco Bank. 
                         Call today and speak with one of our loan officers for complete details about the local credit card with worldwide access.
                     </p>
                 </div>

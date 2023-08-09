@@ -27,7 +27,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-        <title>Verify Login | Swiss Apex Financial</title>
+        <title>Verify Login | Horizon Trustco</title>
 
         <meta name="description" content="Sign In | SAF Bank created by pixelcave and published on Themeforest">
         <meta name="author" content="pixelcave">
@@ -121,7 +121,7 @@
                                 <!-- Header -->
                                 <div class="mb-3 text-center">
                                     <a class="link-fx font-w700 font-size-h1" href="../">
-                                        <!-- <span class="text-dark">SAF</span><span class="text-primary">Swiss Apex Financial</span> -->
+                                        <!-- <span class="text-dark">SAF</span><span class="text-primary">Horizon Trustco</span> -->
                                         <img src="../media/color-logo.svg" width="200" alt=""> <br>
                                     </a>
                                     <p class="text-uppercase font-w700 font-size-sm text-muted">Verify Login</p>

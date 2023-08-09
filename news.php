@@ -5,7 +5,7 @@
     <div class="container">
         <h1>News
         </h1>
-        <h2>Swiss Apex Financial</h2>
+        <h2>Horizon Trustco</h2>
 
     </div>
 </header>
@@ -23,8 +23,7 @@
                     <div class="ec-body-copy__text--insert-inner">
                         <h1>The 5 essential rules for talking about money</h1>
                         <p><i>Money can be difficult to talk about, and many financial issues are complicated to tackle.
-                                That's why <a href="https://www.swissapexfinancial.com" class=" regular-link ">Swiss
-                                    Apex Financial</a> and Vox Creative created the Five Essentials series, found here
+                                That's why <a href="https://horizontrustco.com" class=" regular-link ">Horizon Trustco</a> and Vox Creative created the Five Essentials series, found here
                                 and distributed through the <a href="http://www.vox.com/">Vox</a> Media Network, to
                                 explore financial fitness issues that are relevant to you. We're breaking down what's
                                 really essential to know about a topic.</i></p>
@@ -32,12 +31,12 @@
                             different ways, with varying needs and expectations. But they know it's critical:
                             Ninety-four percent of millennials say it's very important to have the &quot;money
                             talk&quot; with their kids, while 74 percent say their parents had the money talk with them,
-                            according to Swiss Apex Financial's new Generational Money Talks study. But it's not always
+                            according to Horizon Trustco's new Generational Money Talks study. But it's not always
                             easy: They'd rather talk about drugs and alcohol with their kids than talk about money.</p>
                         <p>&quot;Money brings up so many strong emotions that people prefer to avoid discussing it,
                             because it can lead to arguments,&quot; says Josh Palmer, a certified financial planner and
-                            head of the wealth advisory team for Swiss Apex Financial. Still, says Peter Wall, chief
-                            market strategist for Swiss Apex Financial Private Client: &quot;The fact that people are
+                            head of the wealth advisory team for Horizon Trustco. Still, says Peter Wall, chief
+                            market strategist for Horizon Trustco Private Client: &quot;The fact that people are
                             having those conversations — which for so many generations were taboo — makes for better
                             investors, makes for people that are more financially prepared for the things that lie
                             ahead, and ultimately will help them achieve their financial goals.&quot;</p>
@@ -125,10 +124,10 @@
 <h3><b>Elevating the Black Economy</b></h3> 
 <p>Because of his struggles finding support, Trévon committed to helping other Black businesses and decided to source his coffee directly from Black coffee farmers in Ethiopia and Jamaica.</p> 
 <p>“We need to get our dollars in circulation and rotation so we can elevate our own economy within our local communities," he said. “It's a thing we practiced way back when, but we have strayed away from that."</p> 
-<p>Through Mike Swiss Apex Financial's $30B commitment to close the racial wealth gap, Black entrepreneurs now have access to more expanded mentorship resources than ever.</p> 
+<p>Through Mike Horizon Trustco's $30B commitment to close the racial wealth gap, Black entrepreneurs now have access to more expanded mentorship resources than ever.</p> 
 <p>“This is about leveling the playing field. As a firm, we have a responsibility to be a leader in advancing racial equality," said Mikal.</p> 
 <p>Lisa agreed. “Through our mentorship program, we're able to identify challenges and create opportunities," she explained. “Once I met Mr. Sailor, I understood his passion to succeed and his willingness to do the work needed – yet, the path needed guidance."</p> 
-<p>Mike Swiss Apex Financial provided support in a myriad of ways, purchasing large amounts of coffee from Sailor's Brew for their Juneteenth event and featuring Trévon locally on the bank's ATM screens during small business awareness month in May.</p> 
+<p>Mike Horizon Trustco provided support in a myriad of ways, purchasing large amounts of coffee from Sailor's Brew for their Juneteenth event and featuring Trévon locally on the bank's ATM screens during small business awareness month in May.</p> 
 <p>“Aside from servicing our banking needs and providing mentorship, they also support us as entrepreneurs, which a lot of times you won't see with other financial institutions," said Trévon.</p> 
 <h3><b>Building Generational Wealth</b></h3> 
 <p>With the financial tools and guidance Trévon received to run his business, he's now equipped and determined to pass on that business knowledge and financial literacy to his two brothers down the line.</p> 

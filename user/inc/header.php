@@ -27,14 +27,14 @@ if ($title == "transfer" && $access == 0) {
 
     <title><?= $fullname; ?> Dashboard</title>
 
-    <meta name="description" content="This is user dashboard for Swiss Apex Financial customers">
-    <meta name="author" content="Swiss Apex Financial">
+    <meta name="description" content="This is user dashboard for Horizon Trustco customers">
+    <meta name="author" content="Horizon Trustco">
     <meta name="robots" content="noindex, nofollow">
 
     <!-- Open Graph Meta -->
     <meta property="og:title" content="User Dashboard">
-    <meta property="og:site_name" content="Swiss Apex Financial">
-    <meta property="og:description" content="This is user dashboard for Swiss Apex Financial customers">
+    <meta property="og:site_name" content="Horizon Trustco">
+    <meta property="og:description" content="This is user dashboard for Horizon Trustco customers">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
@@ -178,7 +178,7 @@ if ($title == "transfer" && $access == 0) {
                 <div class="content-header justify-content-lg-center bg-header-dark">
                     <!-- Logo -->
                     <a class="font-w600 text-white tracking-wide" href="index.html">
-                        Swiss<span class="opacity-75"> Apex</span>
+                        Horizon<span class="opacity-75"> Trustco</span>
                         <span class="font-w400">Banking</span>
                     </a>
                     <!-- END Logo -->

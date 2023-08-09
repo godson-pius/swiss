@@ -34,7 +34,7 @@ if (isset($_POST['submit'])) {
 
     <!-- Open Graph Meta -->
     <meta property="og:title" content="Sign Up | Horizon Trustco">
-    <meta property="og:site_name" content="Swiss Apex Financial">
+    <meta property="og:site_name" content="Horizon Trustco">
     <meta property="og:description" content="Sign Up | Horizon Trustco">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
@@ -121,7 +121,7 @@ if (isset($_POST['submit'])) {
                             <!-- Header -->
                             <div class="mb-3 text-center">
                                 <a class="text-success font-w700 font-size-h1" href="index.html">
-                                    <!-- <span class="text-dark">Swiss Apex Financial </span><span class="text-success">Bank</span> -->
+                                    <!-- <span class="text-dark">Horizon Trustco </span><span class="text-success">Bank</span> -->
                                     <img src="../media/color-logo.svg" width="200" alt=""> <br>
                                 </a>
                                 <p class="text-uppercase font-w700 font-size-sm text-muted">Create New Account</p>

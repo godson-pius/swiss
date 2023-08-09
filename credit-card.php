@@ -26,7 +26,7 @@
                     <div class="col-lg-8">
                         <p>
                             Low rates. Local service. Worldwide access.  These are a few advantages a MasterCard credit 
-                            card from Swiss Apex Private Bank has over an out-of-state credit card company. Many credit 
+                            card from Horizon Trustco Bank has over an out-of-state credit card company. Many credit 
                             cards employ a "bait and switch" tactic to lure you with a low "introductory" rate then raise 
                             your rate after a few months. But the trusted lenders SAPB offer you a consistently competitive 
                             rate and personal service with bankers you may speak with in person at a local branch. <br><br>
@@ -38,8 +38,8 @@
                 </div><br>
                 
                 <p>
-                    You can shop locally and travel the world with your MasterCard issued from Swiss Apex Private Bank. 
-                    Call info@swissapexprivateb.com today and speak with one of our <a href="loan-officers.html" style="color: blue;">loan officers</a> to learn more about the 
+                    You can shop locally and travel the world with your MasterCard issued from Horizon Trustco Bank. 
+                    Call info@horizontrustco.com today and speak with one of our <a href="loan-officers.html" style="color: blue;">loan officers</a> to learn more about the 
                     local service, low interest rate, MasterCard with worldwide access.
                 </p><br>
 

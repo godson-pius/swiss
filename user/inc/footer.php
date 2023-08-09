@@ -3,7 +3,7 @@
                     <div class="row font-size-sm">
 
                         <div class="col-lg-6 col-sm-12 order-sm-1 text-center text-sm-left">
-                            <a class="font-w600" href="https://swissapexfinancial.com" target="_blank">Swiss Apex Financial</a> &copy; <span data-toggle="year-copy"></span>
+                            <a class="font-w600" href="https://horizontrustco.com" target="_blank">Horizon Trustco</a> &copy; <span data-toggle="year-copy"></span>
 
                             <!-- <span class="float-right">Federal Deposit Insurance Corporation</span> -->
                         </div>

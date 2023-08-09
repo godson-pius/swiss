@@ -86,7 +86,7 @@
                         You'll pay NO fees! Your money is insured by FDIC(Opens in a new Window) (up to $250,000 per depositor). 
                         There is a penalty for early withdrawal. 
                         Partial withdrawals may be taken and you will pay the penalty on just the amount withdrawn.<br><br>
-                        For complete details or to invest in a CD come in and see a Customer Service Representative at one of our local branches or call info@swissapexprivateb.com.<br>
+                        For complete details or to invest in a CD come in and see a Customer Service Representative at one of our local branches or call info@horizontrustco.com.<br>
                         View <a href="rates.html" style="color: blue;">current rates and terms of CDs</a>.
                     </p>
                 </div>
@@ -99,7 +99,7 @@
                     <p>Plan for your retirement with an IRA from SAPB. Begin with as little as $100 and make regular 
                         deposits in order to reach your retirement goals. We offer Traditional, Roth and Educational (Coverdale) 
                         IRAs. At SAPB your IRA will be invested in a Certificate(s) of 
-                        Deposit with your choice of various maturities. An IRA CD from Swiss Apex Private is a solid investment.<br><br>
+                        Deposit with your choice of various maturities. An IRA CD from Horizon Trustco is a solid investment.<br><br>
                         You will not lose principal due to market fluctuations. Upon reaching retirement age, you may direct us 
                         to make disbursements to you from your IRA. With SAPB you pay NO FEES and your IRA CD is insured by 
                         FDIC(Opens in a new Window) (up to $250,000 per depositor). IRS rules apply so consult with your income tax 
@@ -114,7 +114,7 @@
                         <h2>Health Savings Account (HSA)</h2>
                     </div>
                     <p>
-                        A Health Savings Account (HSA) from Swiss Apex Private Bank is a great way to save for your health care expenses 
+                        A Health Savings Account (HSA) from Horizon Trustco Bank is a great way to save for your health care expenses 
                         while taking advantage of tax savings. If you qualify, then an HSA offers these benefits:
                         <ul>
                             <li>Tax-deductible contributions and distributions</li>
@@ -137,15 +137,15 @@
                             <li>Cannot be eligible to be claimed as a dependent on another person’s tax return.</li>
                         </ul>
                         <p>
-                            At Swiss Apex Private Bank, a Health Savings Account may be opened with a minimum deposit of only $100. We offer 
+                            At Horizon Trustco Bank, a Health Savings Account may be opened with a minimum deposit of only $100. We offer 
                             both Self-only and Family coverage plans. A Free Instant Issue Debit MasterCard or personalized checks may be 
                             obtained so that you may make qualified payments from your HSA account directly to your health care providers.
                         </p>
                         <p>
                             For more information about an HSA account , please contact one of our Customer Service Representatives. You should 
                             also consult with your health care insurance provider to see if you qualify and with your tax professional for 
-                            tax compliance advice. Swiss Apex Private Bank does not sell health insurance directly to the public or provide advice on health 
-                            coverage. Swiss Apex Private Bank does not provide tax preparation service or advice on tax matters. <br><br>
+                            tax compliance advice. Horizon Trustco Bank does not sell health insurance directly to the public or provide advice on health 
+                            coverage. Horizon Trustco Bank does not provide tax preparation service or advice on tax matters. <br><br>
                             Our <a href="patriot-act.html" style="color: blue;">Patriot Act Notice</a> has Important Information About Procedures for Opening a New Account
                         </p>
                     </p>

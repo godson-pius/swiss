@@ -18,7 +18,7 @@
                 </div>
 
                 <p>
-                    Every year more people are making the switch to Swiss Apex Private Bank. Customers who’ve made the switch 
+                    Every year more people are making the switch to Horizon Trustco Bank. Customers who’ve made the switch 
                     enjoyed many benefits including: improved convenience, friendly service and lower fees! But occasionally someone 
                     may hesitate because they don’t know how easy it is to make the switch to SAPB. Let us help! 
                 </p>
@@ -31,8 +31,7 @@
 
                     <div class="col-lg-8">
                         <p>
-                            Our Customer Service Representatives (CSRs) are eager to guide you through the process of switching to Swiss 
-                            Apex Private Bank. The process begins when you <a href="apply.html" style="color: blue;">open a new account</a> with SAPB. Once established, then your direct depositors and 
+                            Our Customer Service Representatives (CSRs) are eager to guide you through the process of switching to Horizon Trustco Bank. The process begins when you <a href="apply.html" style="color: blue;">open a new account</a> with SAPB. Once established, then your direct depositors and 
                             automatic payees should each be properly authorized to initiate direct deposits and/or automatic payments to your account(s).
                             <br><br>
                             Our CSRs are willing to help you telephone the Social Security Administration or other U.S. government agency 

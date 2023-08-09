@@ -26,11 +26,11 @@
     
                         <div class="col-lg-8">
                             <p>
-                                Home loans from Swiss Apex Private Bank come in all sizes and shapes. Our people are eager to lend you 
+                                Home loans from Horizon Trustco Bank come in all sizes and shapes. Our people are eager to lend you 
                                 their experience to find the right loan to finance the purchase of a new home or to refinance your existing 
                                 home. Having a lender with whom you can speak face to face can make the process so much easier. Plus you can 
                                 feel good about dealing with a bank with a century long track record of service. Whether it is a construction 
-                                loan or permanent financing, Swiss Apex Private Bank has many home loan options.
+                                loan or permanent financing, Horizon Trustco Bank has many home loan options.
                             </p>
                         </div>                   
                     </div>
@@ -91,7 +91,7 @@
                         Are you looking ahead to build or develop? Come in and speak to one of our lenders about that 
                         lot or land you are considering.
                     </p><br><br>
-                    <p>Contact us and let Swiss Apex Private Bank guide you through the home loan process!</p>
+                    <p>Contact us and let Horizon Trustco Bank guide you through the home loan process!</p>
 
                 </div>
 

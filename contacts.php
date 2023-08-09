@@ -13,7 +13,7 @@
                 </div>
                 <ul class=" text-list-line">
                     <li><b>Address</b><hr /><p>Vietnam</p></li>
-                    <li><b>Email</b><hr /><p>info@swissapexfinancial.com</p></li>
+                    <li><b>Email</b><hr /><p>info@horizontrustco.com</p></li>
                     <li><b>Opening hours</b><hr /><p>8:30AM - 4PM</p></li>
                 </ul>
                 <hr class="space-sm" />
