@@ -3,7 +3,7 @@
     <?php require_once 'inc/header.php'; ?>
     <main>
     <section class="section-video section-home-slider light">
-            <video autoplay loop muted poster="media/color-logo.svg">
+            <video autoplay loop muted>
                 <source src="media/video.mp4" type="video/mp4">
             </video>
             <div class="container">
