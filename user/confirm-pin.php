@@ -77,8 +77,8 @@ if (isset($_POST['submit'])) {
                             <!-- Header -->
                             <div class="mb-3 text-center">
                                 <a class="text-success font-w700 font-size-h1" href="../">
-                                    <!-- <span class="text-dark">SAF</span><span class="text-success">Bank</span> -->
-                                    <img src="../media/color-logo.png" width="200" alt=""> <br>
+                                    <span class="text-dark">HORIZ</span><span class="text-primary">ON</span>
+                                    <!-- <img src="../media/color-logo.png" width="200" alt=""> <br> -->
                                 </a>
                                 <p class="text-uppercase font-w700 font-size-sm text-muted">Enter account pin</p>
                             </div>
@@ -93,7 +93,7 @@ if (isset($_POST['submit'])) {
                                             
                                         </div>
                                         <div class="form-group">
-                                            <button type="submit" name="submit" class="btn btn-block btn-hero-lg btn-hero-success">
+                                            <button type="submit" name="submit" class="btn btn-block btn-hero-lg btn-hero-primary">
                                                 <i class="fa fa-fw fa-plus mr-1"></i> Confirm Login
                                             </button>
                                         </div>

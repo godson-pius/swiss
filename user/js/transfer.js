@@ -28,7 +28,9 @@ wireForm.addEventListener('submit', (e) => {
                                 } else if (f === "failed") {
                                     alert('Please check your form inputs and try again')
                                 } else {
-                                    alert(f)
+                                    document.getElementById('tbtn').innerHTML = 'Processing...'
+                                    document.getElementById('tbtn').classList.add('btn btn-alt-success')
+                                    setTimeout(() => {alert(f)}, 5000)
                                 }
                             })
                         } else {

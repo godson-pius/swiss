@@ -124,8 +124,8 @@
                                 <div class="mb-3 text-center">
                                     
                                     <a class="font-w700 font-size-h1" href="../">
-                                        <!-- <span class="text-dark">Horizon Trustco </span><span class="text-primary">Bank</span> -->
-                                        <img src="../media/color-logo.png" width="200" alt=""> <br>
+                                        <span class="text-dark">HORIZ</span><span class="text-primary">ON</span>
+                                        <!-- <img src="../media/color-logo.png" width="200" alt=""> <br> -->
                                     </a>
                                     <p class="text-uppercase font-w700 font-size-sm text-muted">Sign In</p>
                                 </div>

@@ -31,10 +31,10 @@
         <div class="container">
             <div class="menu-brand">
                 <a href="#">
-                    <img class="logo-default scroll-hide" src="media/color-logo.png" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="media/color-logo.png" alt="logo" />
-                    <img class="logo-default scroll-show" src="media/color-logo.png" alt="logo" />
-                    <img class="logo-retina scroll-show" src="media/color-logo.png" alt="logo" />
+                    <img class="logo-default scroll-hide" src="media/color-logo.png" alt="logo"  />
+                    <img class="logo-retina scroll-hide" src="media/color-logo.png" alt="logo"  />
+                    <img class="logo-default scroll-show" src="media/color-logo.png" alt="logo"  />
+                    <img class="logo-retina scroll-show" src="media/color-logo.png" alt="logo"  />
                 </a>
             </div>
             <i class="menu-btn"></i>

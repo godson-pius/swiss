@@ -12,6 +12,8 @@ if (isset($_POST['submit'])) {
 
     $response = make_transfer($_POST, $id);
     if ($response === true) {
+        echo 'Processing....';
+        sleep(7);
         echo "<script>alert('Transfer Successful!')</script>";
         echo "<script>window.location.href = 'pending'</script>";
     } else {
