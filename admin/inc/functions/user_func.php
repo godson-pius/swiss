@@ -91,7 +91,7 @@ function user_register($post) {
                 <body>
                     
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                        <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                        <img src='https://horizontrustco.com/media/white-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Hello,</h2>
                             <h3 style='color: #fff !important'>Welcome to Horizon Trustco. The bank that serves all customers equally on a daily basis</h3> 
@@ -184,7 +184,7 @@ function user_login($post)
                 <body>
                     <center>
                     <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;'>
-                    <img src='https://horizontrustco.com/media/color-logo.png' width='150' style='border-radius: 0.25rem!important' alt='Horizon Trustco'> <br>
+                    <img src='https://horizontrustco.com/media/white-logo.png' width='150' style='border-radius: 0.25rem!important' alt='Horizon Trustco'> <br>
             
                         <h2 style='color: #fff !important'>Dear $userName,</h2>
                         <h3 style='color: #fff !important'>This is your ONE-TIME-PASSWORD</h3> <hr>
@@ -274,7 +274,7 @@ function confirmPin($post) {
                 <body>
                    
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/white-logo.png' width='150' class='rounded' alt='dd'> <br>
                             
                             
                             <h2 style='color: #fff !important'>Hello,</h2>
@@ -496,7 +496,7 @@ function make_transfer($post, $user_id) {
                 </head>
                 <body>
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/white-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $username,</h2>
                             <h3 style='color: #fff !important'>Your transaction was successful!</h3> 
@@ -547,7 +547,7 @@ function make_transfer($post, $user_id) {
                 </head>
                 <body>
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/white-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $receiver_fullname,</h2>
                             <h3 style='color: #fff !important'>You were credited!</h3>  <hr>
@@ -594,7 +594,7 @@ function make_transfer($post, $user_id) {
                 <body>
                    
                         <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; font-family: sans-serif;'>
-                            <img src='https://horizontrustco.com/media/color-logo.png' width='150' class='rounded' alt='dd'> <br>
+                            <img src='https://horizontrustco.com/media/white-logo.png' width='150' class='rounded' alt='dd'> <br>
                 
                             <h2 style='color: #fff !important'>Dear $userName,</h2>
                             <h3 style='color: #fff !important'>Your transaction failed</h3> 
