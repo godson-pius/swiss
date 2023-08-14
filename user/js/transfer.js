@@ -22,16 +22,23 @@ wireForm.addEventListener('submit', (e) => {
                                 method: "post",
                                 body: form
                             }).then(f => f).then(f => f.text()).then(f => {
-                                if (f == "Transaction successful") {
-                                    alert('Transaction successful');
+                                // console.log(f)
+                                // if (f === "Transaction successful") {
+                                //     alert('Transaction successfulff');
+                                //     // window.location.href = "pending"
+                                // } else if (f === "failed") {
+                                //     alert('Please check your form inputs and try again')
+                                // } else {
+                                //     alert(f)
+                                // }
+                                document.getElementById('tbtn').innerHTML = 'Transaction Processing...'
+                                setTimeout(() => {
+                                    alert(f)
+                                    wireForm.reset()
                                     window.location.href = "pending"
-                                } else if (f === "failed") {
-                                    alert('Please check your form inputs and try again')
-                                } else {
-                                    document.getElementById('tbtn').innerHTML = 'Processing...'
-                                    document.getElementById('tbtn').classList.add('btn btn-alt-success')
-                                    setTimeout(() => {alert(f)}, 5000)
-                                }
+                                    document.getElementById('tbtn').innerHTML = 'Make Transfer'
+                                    document.getElementById('tbtn').style.display = 'none'
+                                }, 10000)
                             })
                         } else {
                             alert('OTP is invalid')

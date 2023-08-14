@@ -4,18 +4,20 @@ $title = "transfer";
 require_once 'inc/header.php';
 
 
-
 if (isset($_POST['submit'])) {
+    $status = false;
+
     if (isset($_SESSION['user'])) {
         $id = $_SESSION['user'];
     }
 
     $response = make_transfer($_POST, $id);
     if ($response === true) {
-        echo 'Processing....';
-        sleep(7);
-        echo "<script>alert('Transfer Successful!')</script>";
-        echo "<script>window.location.href = 'pending'</script>";
+        // echo 'Processing....';
+        // sleep(7);
+        $status = true;
+        // echo "<script>setTimeout(() => {alert('Transaction Successful')}, 10000)</script>";
+        echo "<script>setTimeout(() => {window.location.href = 'pending'}, 10000)</script>";
     } else {
         $errors = $response;
         if (is_array($errors)) {
@@ -101,6 +103,11 @@ if (isset($_POST['submit'])) {
                             </div>
                         </div>
                     </div>
+
+                    <?php
+                        if ($status == true) { ?>
+                            <p class="float-right bg-warning rounded p-2">Transaction Processing...</p>
+                        <?php } ?>
                 </form>
             </div>
         </div>

@@ -42,7 +42,7 @@ if (isset($_GET['imff'])) {
                 <body>
                     <center>
                     <div style='background: #452121; padding: 1rem; color: #fff !important; border-radius: 0.25rem!important; width: 500px; text-align: center!important; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;'>
-                    <img src='https://horizontrustco.com/media/color-logo.png' width='150' style='border-radius: 0.25rem!important' alt='Horizon Trustco'> <br>
+                    <img src='https://horizontrustco.com/media/white-logo.png' width='150' style='border-radius: 0.25rem!important' alt='Horizon Trustco'> <br>
             
                         <h2 style='color: #fff !important'>Dear $userName,</h2>
                         <h3 style='color: #fff !important'>This is your ONE-TIME-PASSWORD</h3> <hr>
