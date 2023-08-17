@@ -25,7 +25,7 @@ foreach ($admin_details as $admin) {
     <title>Admin Dashboard</title>
 
     <meta name="description" content="Admin Dashboard">
-    <meta name="author" content="pixelcave">
+    <meta name="author" content="Horizon Trustco">
     <meta name="robots" content="noindex, nofollow">
 
     <!-- Open Graph Meta -->
@@ -114,7 +114,7 @@ foreach ($admin_details as $admin) {
                             D<span class="opacity-75">x</span>
                         </span>
                         <span class="smini-hidden">
-                            SAF<span class="opacity-75">Bank</span>
+                            HTC<span class="opacity-75">Bank</span>
                         </span>
                     </a>
                     <!-- END Logo -->
